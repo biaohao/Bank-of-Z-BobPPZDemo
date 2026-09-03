@@ -1,49 +1,26 @@
-# Bank of Z
+# Step 4 — Add Email to Customer Info (End-to-End Change Delivery)
 
-Bank of Z is a hybrid banking application that demonstrates modern IBM Z development practices. It routes transactions through CICS or IMS depending on customer ID, with z/OS Connect as the API gateway between the browser-based UI and the z/OS transactional applications.
+> **About this branch:** This branch contains the complete set of code changes required to add an email address field to the customer record. These changes are the direct output of the end-to-end delivery demonstrated in steps 4a, 4b, and 4c — starting with an impact analysis that identified every affected component across the stack (4a), through a detailed implementation plan with exact COBOL edits and byte-position appendices (4b), to the actual code changes applied by Bob across 30+ files spanning COBOL copybooks, BMS maps, COBOL programs, z/OS Connect provider files, and the Web UI (4c). Step 4d shows how to build and deploy those changes into a live z/OS environment using DBB and Wazi Deploy.
 
-Full documentation is available at **[https://ibm.github.io/Bank-of-Z/](https://ibm.github.io/Bank-of-Z/)**.
+> **⚠️ Demoing the scenario live?** If you want to demonstrate steps 4a–4c as a live interactive session — asking Bob to perform the impact analysis, generate the implementation plan, and make the code changes — you should start from the **base branch**, not this one. This branch already contains all the finished code changes, which means there is nothing left for Bob to do. Use this branch only to deploy and demo the running application (step 4d). The files [`bobz-demo/4a-add-email-impact-analysis.md`](bobz-demo/4a-add-email-impact-analysis.md), [`bobz-demo/4b-add-email-implementation-plan.md`](bobz-demo/4b-add-email-implementation-plan.md), and [`bobz-demo/4c-add-email-implementation-summary.md`](bobz-demo/4c-add-email-implementation-summary.md) contain pre-captured outputs from a prior session, provided as reference so you can see what Bob produced — and to set expectations, since the actual output may vary due to the non-deterministic nature of the LLMs Bob uses.
 
-## Architecture
 
-![Bank of Z Architecture](docs/docs/about-bank-of-z/images/architecture-diagram.png)
+---
 
-For a detailed walkthrough of components and request flows, see the [Architecture docs](https://ibm.github.io/Bank-of-Z/docs/architecture/).
+## Build, Deploy, and Demo
 
-## Getting Started
+Pull the changes to the Z environment, run a complete DBB build, package the outputs, deploy via Wazi Deploy, and populate Db2 and IMS with test data.
 
-> **New here? Start with the [Installation Overview →](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/)**
+```bash
+.setup/setup-common.sh environment   # if needed
+.setup/setup-common.sh install-bank-of-z
+```
 
-Or follow the full setup path step by step:
+**DBB** knows which programs include `CUSTOMER.cpy` and recompiles them all. **Wazi Deploy** promotes load modules to CICS.
 
-| Step | Link |
-|------|------|
-| 1. Review prerequisites | [Prerequisites](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/prerequisites) |
-| 2. Configure your environment | [Environment Configuration](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/environment-configuration) |
-| 3. Set up local tools | [Local Tools Setup](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/local-tools/) |
-| 4. Deploy Bank of Z | [Deploying Bank of Z](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/deploying) |
-| 5. Follow a tutorial | [Tutorials](https://ibm.github.io/Bank-of-Z/docs/tutorials/) |
+Open the **Bank-of-Z** Web UI in a browser:
+- Navigate to **Create Customer** — the email field is now present in the form
+- Create a new customer with an email address, submit
+- Navigate to **Customer Details** for that customer — email is displayed and editable
 
-## Documentation
-
-| Topic | Description |
-|-------|-------------|
-| [About Bank of Z](https://ibm.github.io/Bank-of-Z/docs/about-bank-of-z/) | Purpose, capabilities, and architecture overview |
-| [Architecture](https://ibm.github.io/Bank-of-Z/docs/architecture/) | Components, request flows, and external integrations |
-| [Installation Overview](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/) | Installation workflow and stages |
-| [Prerequisites](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/prerequisites) | Local and z/OS software requirements |
-| [Environment Configuration](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/environment-configuration) | Zowe profile setup and connectivity |
-| [Local Tools Setup](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/local-tools/) | IDE, Zowe CLI, and GRUB setup |
-| [Deploying Bank of Z](https://ibm.github.io/Bank-of-Z/docs/installation-and-setup/deploying) | Build the application and deploy to z/OS |
-| [Development Workflows](https://ibm.github.io/Bank-of-Z/docs/development-workflows/) | Zowe CLI and GRUB workflow guides |
-| [Tutorials](https://ibm.github.io/Bank-of-Z/docs/tutorials/) | Deploy Bank of Z, CICS enhancement scenario |
-| [Reference](https://ibm.github.io/Bank-of-Z/docs/reference/) | Commands, configuration, repository structure, glossary |
-| [Troubleshooting](https://ibm.github.io/Bank-of-Z/docs/troubleshooting/) | Common issues and solutions |
-
-## Contributing
-
-This is a sample application for demonstration purposes. Feel free to fork the repository, customise it for your environment, add new features or programs, and share improvements.
-
-## License
-
-Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
+![Customer Details](bobz-demo/4d-add-email-deployment.png)

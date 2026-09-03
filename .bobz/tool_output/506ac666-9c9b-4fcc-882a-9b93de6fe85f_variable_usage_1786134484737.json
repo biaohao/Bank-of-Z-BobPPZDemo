@@ -1,0 +1,555 @@
+{
+  "resourceType": "variable",
+  "filters": {
+    "program": "CRECUST",
+    "resource": "COMM-SUCCESS",
+    "statement": "all"
+  },
+  "totalResults": 17,
+  "results": [
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 665,
+          "startColumn": 23,
+          "endRow": 665,
+          "endColumn": 47,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1087,
+          "startColumn": 28,
+          "endRow": 1087,
+          "endColumn": 52,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1510,
+          "startColumn": 15,
+          "endRow": 1510,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1027,
+          "startColumn": 31,
+          "endRow": 1027,
+          "endColumn": 55,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 695,
+          "startColumn": 23,
+          "endRow": 695,
+          "endColumn": 47,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 578,
+          "startColumn": 15,
+          "endRow": 578,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1114,
+          "startColumn": 28,
+          "endRow": 1114,
+          "endColumn": 52,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1305,
+          "startColumn": 12,
+          "endRow": 1305,
+          "endColumn": 37,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 482,
+          "startColumn": 15,
+          "endRow": 482,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1265,
+          "startColumn": 15,
+          "endRow": 1265,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 454,
+          "startColumn": 15,
+          "endRow": 454,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 553,
+          "startColumn": 15,
+          "endRow": 553,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 785,
+          "startColumn": 29,
+          "endRow": 785,
+          "endColumn": 53,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 872,
+          "startColumn": 26,
+          "endRow": 872,
+          "endColumn": 50,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1534,
+          "startColumn": 15,
+          "endRow": 1534,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 500,
+          "startColumn": 15,
+          "endRow": 500,
+          "endColumn": 39,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    },
+    {
+      "name": "COMM-SUCCESS",
+      "id": 8092,
+      "recordName": "DFHCOMMAREA",
+      "usage": {
+        "type": "COBOL: MOVE",
+        "read": true,
+        "location": {
+          "startRow": 1068,
+          "startColumn": 28,
+          "endRow": 1068,
+          "endColumn": 52,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      },
+      "prog": {
+        "progId": 11,
+        "progName": "CRECUST",
+        "ancestor": "",
+        "fullName": "CRECUST",
+        "ancestorTypeID": 0,
+        "progTypeId": 1,
+        "progType": "COBOL",
+        "location": {
+          "startRow": 38,
+          "startColumn": 20,
+          "endRow": 38,
+          "endColumn": 27,
+          "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+        }
+      }
+    }
+  ]
+}

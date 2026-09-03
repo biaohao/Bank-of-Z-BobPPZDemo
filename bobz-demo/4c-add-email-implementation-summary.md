@@ -7,6 +7,10 @@
 
 ---
 
+> **Note:** This is a pre-captured output produced during a prior session. The actual output you see when running this prompt live may differ — the structure, wording, and level of detail can vary due to the non-deterministic nature of the large language models that Bob uses.
+
+---
+
 ## What Was Done
 
 All source changes for the customer email field have been committed and pushed to `origin/demo-start`. The implementation followed workstreams A–G from the [implementation plan](./implementation-plan.md), plus post-implementation bug fixes discovered during the first compile attempt on z/OS.

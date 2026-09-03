@@ -5,7 +5,11 @@
 **Analysis Method**: Z Understand + Local Workspace  
 **Workspace Alignment**: Fully Aligned  
 **Data Dictionary Coverage**: Not required (field additions only)  
-**Reference**: `bobz/impact-analysis/customer-email-field-20260727T225450/IMPACT-ANALYSIS.md`
+**Reference**: `bobz/add-email/impact-analysis.md`
+
+---
+
+> **Note:** This is a pre-captured output produced during a prior session. The actual output you see when running this prompt live may differ — the structure, wording, and level of detail can vary due to the non-deterministic nature of the large language models that Bob uses.
 
 ---
 

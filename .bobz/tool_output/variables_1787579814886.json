@@ -1,0 +1,6866 @@
+[
+  {
+    "name": "RETURN-CODE",
+    "id": 6578,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 1,
+      "startColumn": 8,
+      "endRow": 1,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-CORE-SIZE",
+    "id": 6579,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 2,
+      "startColumn": 8,
+      "endRow": 2,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-MODE-SIZE",
+    "id": 6580,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 3,
+      "startColumn": 8,
+      "endRow": 3,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-FILE-SIZE",
+    "id": 6581,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 4,
+      "startColumn": 8,
+      "endRow": 4,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-RETURN",
+    "id": 6582,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 5,
+      "startColumn": 8,
+      "endRow": 5,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "TALLY",
+    "id": 6583,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(5)",
+    "definition": {
+      "startRow": 6,
+      "startColumn": 8,
+      "endRow": 6,
+      "endColumn": 33,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SHIFT-OUT",
+    "id": 6584,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 8,
+      "endRow": 9,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SHIFT-IN",
+    "id": 6585,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 10,
+      "startColumn": 8,
+      "endRow": 10,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-CONTROL",
+    "id": 6586,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 8,
+      "endRow": 11,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-MESSAGE",
+    "id": 6587,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 8,
+      "endRow": 12,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "TIME-OF-DAY",
+    "id": 6588,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 8,
+      "endRow": 13,
+      "endColumn": 33,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "WHEN-COMPILED",
+    "id": 6589,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 8,
+      "endRow": 14,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SQL-INIT-FLAG",
+    "id": 6590,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 8,
+      "endRow": 15,
+      "endColumn": 32,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORT-EOW",
+    "id": 6591,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 8,
+      "endRow": 17,
+      "endColumn": 38,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-LINE",
+    "id": 6593,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 14,
+      "endRow": 21,
+      "endColumn": 37,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "FILLER #1",
+    "id": 6594,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 14,
+      "endRow": 22,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-NAME",
+    "id": 6595,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X(36)",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 14,
+      "endRow": 23,
+      "endColumn": 38,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "FILLER #2",
+    "id": 6596,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X",
+    "definition": {
+      "startRow": 24,
+      "startColumn": 14,
+      "endRow": 24,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-SUB-1",
+    "id": 6597,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "S9999",
+    "definition": {
+      "startRow": 25,
+      "startColumn": 14,
+      "endRow": 25,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "FILLER #3",
+    "id": 6598,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X",
+    "definition": {
+      "startRow": 26,
+      "startColumn": 14,
+      "endRow": 26,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-SUB-2",
+    "id": 6599,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "S9999",
+    "definition": {
+      "startRow": 27,
+      "startColumn": 14,
+      "endRow": 27,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "FILLER #4",
+    "id": 6600,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X",
+    "definition": {
+      "startRow": 28,
+      "startColumn": 14,
+      "endRow": 28,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-SUB-3",
+    "id": 6601,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "S9999",
+    "definition": {
+      "startRow": 29,
+      "startColumn": 14,
+      "endRow": 29,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "FILLER #5",
+    "id": 6602,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X",
+    "definition": {
+      "startRow": 30,
+      "startColumn": 14,
+      "endRow": 30,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "DEBUG-CONTENTS",
+    "id": 6603,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DEBUG-ITEM",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 31,
+      "startColumn": 14,
+      "endRow": 31,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "JSON-CODE",
+    "id": 6604,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 34,
+      "startColumn": 8,
+      "endRow": 34,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "JSON-STATUS",
+    "id": 6605,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 35,
+      "startColumn": 8,
+      "endRow": 35,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "XML-CODE",
+    "id": 6606,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 38,
+      "startColumn": 8,
+      "endRow": 38,
+      "endColumn": 45,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "XML-EVENT",
+    "id": 6607,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(30)",
+    "definition": {
+      "startRow": 39,
+      "startColumn": 8,
+      "endRow": 39,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "XML-INFORMATION",
+    "id": 6614,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 46,
+      "startColumn": 8,
+      "endRow": 46,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DEFVAR.CPY"
+    }
+  },
+  {
+    "name": "SORTCODE",
+    "id": 6615,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 77,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 7,
+      "startColumn": 8,
+      "endRow": 7,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SORTCODE.cpy"
+    }
+  },
+  {
+    "name": "SYSIDERR-RETRY",
+    "id": 6616,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "999",
+    "definition": {
+      "startRow": 59,
+      "startColumn": 8,
+      "endRow": 59,
+      "endColumn": 49,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-EYECATCHER",
+    "id": 6618,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 68,
+      "startColumn": 11,
+      "endRow": 68,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-SORTCODE",
+    "id": 6619,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 69,
+      "startColumn": 11,
+      "endRow": 69,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-NUMBER",
+    "id": 6620,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 70,
+      "startColumn": 11,
+      "endRow": 70,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-TITLE",
+    "id": 6621,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 71,
+      "startColumn": 11,
+      "endRow": 71,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-FIRST-NAME",
+    "id": 6622,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 72,
+      "startColumn": 11,
+      "endRow": 72,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-LAST-NAME",
+    "id": 6623,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 73,
+      "startColumn": 11,
+      "endRow": 73,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-DOB",
+    "id": 6624,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 74,
+      "startColumn": 11,
+      "endRow": 74,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-PHONE",
+    "id": 6625,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(20)",
+    "definition": {
+      "startRow": 75,
+      "startColumn": 11,
+      "endRow": 75,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-ADDR-LINE1",
+    "id": 6626,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 76,
+      "startColumn": 11,
+      "endRow": 76,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-ADDR-LINE2",
+    "id": 6627,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 77,
+      "startColumn": 11,
+      "endRow": 77,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-CITY",
+    "id": 6628,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 78,
+      "startColumn": 11,
+      "endRow": 78,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-POSTCODE",
+    "id": 6629,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 79,
+      "startColumn": 11,
+      "endRow": 79,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-COUNTRY",
+    "id": 6630,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 80,
+      "startColumn": 11,
+      "endRow": 80,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-STATUS",
+    "id": 6631,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 81,
+      "startColumn": 11,
+      "endRow": 81,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-CREATE-DATE",
+    "id": 6632,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 82,
+      "startColumn": 11,
+      "endRow": 82,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-CREDIT-SCORE",
+    "id": 6633,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 83,
+      "startColumn": 11,
+      "endRow": 83,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CUSTOMER-CS-REVIEW-DATE",
+    "id": 6634,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CUSTOMER-ROW",
+    "iLevel": 3,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 84,
+      "startColumn": 11,
+      "endRow": 84,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-EYECATCHER",
+    "id": 6636,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 93,
+      "startColumn": 11,
+      "endRow": 93,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-SORT-CODE",
+    "id": 6637,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 94,
+      "startColumn": 11,
+      "endRow": 94,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-ACC-NUMBER",
+    "id": 6638,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 95,
+      "startColumn": 11,
+      "endRow": 95,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-DATE",
+    "id": 6639,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 96,
+      "startColumn": 11,
+      "endRow": 96,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-TIME",
+    "id": 6640,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 97,
+      "startColumn": 11,
+      "endRow": 97,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-REF",
+    "id": 6641,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(12)",
+    "definition": {
+      "startRow": 98,
+      "startColumn": 11,
+      "endRow": 98,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-TYPE",
+    "id": 6642,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(3)",
+    "definition": {
+      "startRow": 99,
+      "startColumn": 11,
+      "endRow": 99,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-DESC",
+    "id": 6643,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "X(40)",
+    "definition": {
+      "startRow": 100,
+      "startColumn": 11,
+      "endRow": 100,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-PROCTRAN-AMOUNT",
+    "id": 6644,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-PROCTRAN-ROW",
+    "iLevel": 3,
+    "PIC": "S9(10)V99",
+    "definition": {
+      "startRow": 101,
+      "startColumn": 11,
+      "endRow": 101,
+      "endColumn": 62,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CONTROL-NAME",
+    "id": 6646,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CONTROL-ROW",
+    "iLevel": 3,
+    "PIC": "X(32)",
+    "definition": {
+      "startRow": 110,
+      "startColumn": 11,
+      "endRow": 110,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CONTROL-VALUE-NUM",
+    "id": 6647,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CONTROL-ROW",
+    "iLevel": 3,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 111,
+      "startColumn": 11,
+      "endRow": 111,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HV-CONTROL-VALUE-STR",
+    "id": 6648,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "HOST-CONTROL-ROW",
+    "iLevel": 3,
+    "PIC": "X(32)",
+    "definition": {
+      "startRow": 112,
+      "startColumn": 11,
+      "endRow": 112,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "SQLCAID",
+    "id": 6650,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 5,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 2,
+      "startColumn": 13,
+      "endRow": 2,
+      "endColumn": 37,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLCABC",
+    "id": 6651,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 5,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 3,
+      "startColumn": 13,
+      "endRow": 3,
+      "endColumn": 45,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLCODE",
+    "id": 6652,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 5,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 4,
+      "startColumn": 13,
+      "endRow": 4,
+      "endColumn": 45,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLERRML",
+    "id": 6654,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 49,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 6,
+      "startColumn": 16,
+      "endRow": 6,
+      "endColumn": 45,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLERRMC",
+    "id": 6655,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 49,
+    "PIC": "X(70)",
+    "definition": {
+      "startRow": 7,
+      "startColumn": 16,
+      "endRow": 7,
+      "endColumn": 38,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLERRP",
+    "id": 6656,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 5,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 13,
+      "endRow": 8,
+      "endColumn": 37,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLERRD",
+    "id": 6657,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 5,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 13,
+      "endRow": 10,
+      "endColumn": 45,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN0",
+    "id": 6659,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 16,
+      "endRow": 12,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN1",
+    "id": 6660,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 16,
+      "endRow": 13,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN2",
+    "id": 6661,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 16,
+      "endRow": 14,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN3",
+    "id": 6662,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 16,
+      "endRow": 15,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN4",
+    "id": 6663,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 16,
+      "endRow": 16,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN5",
+    "id": 6664,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 16,
+      "endRow": 17,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN6",
+    "id": 6665,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 16,
+      "endRow": 18,
+      "endColumn": 34,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN7",
+    "id": 6666,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 19,
+      "startColumn": 23,
+      "endRow": 19,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN8",
+    "id": 6668,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 23,
+      "endRow": 21,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARN9",
+    "id": 6669,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 23,
+      "endRow": 22,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLWARNA",
+    "id": 6670,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 23,
+      "endRow": 23,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "SQLSTATE",
+    "id": 6671,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "SQLCA",
+    "iLevel": 10,
+    "PIC": "X(5)",
+    "definition": {
+      "startRow": 24,
+      "startColumn": 23,
+      "endRow": 24,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/SQLCA"
+    }
+  },
+  {
+    "name": "PROC-TRAN-EYE-CATCHER",
+    "id": 6674,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 15,
+      "endRow": 8,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-LOGICAL-DELETE-FLAG",
+    "id": 6677,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 18,
+      "endRow": 12,
+      "endColumn": 57,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "FILLER #6",
+    "id": 6679,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(3)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 18,
+      "endRow": 14,
+      "endColumn": 37,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-SORT-CODE",
+    "id": 6681,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 18,
+      "endRow": 16,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-NUMBER",
+    "id": 6682,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 18,
+      "endRow": 17,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DATE",
+    "id": 6683,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 15,
+      "endRow": 18,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DATE-GRP-YYYY",
+    "id": 6685,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 20,
+      "startColumn": 18,
+      "endRow": 20,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DATE-GRP-MM",
+    "id": 6686,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 18,
+      "endRow": 21,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DATE-GRP-DD",
+    "id": 6687,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 18,
+      "endRow": 22,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-TIME",
+    "id": 6688,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 15,
+      "endRow": 23,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-TIME-GRP-HH",
+    "id": 6690,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 25,
+      "startColumn": 18,
+      "endRow": 25,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-TIME-GRP-MM",
+    "id": 6691,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 26,
+      "startColumn": 18,
+      "endRow": 26,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-TIME-GRP-SS",
+    "id": 6692,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 27,
+      "startColumn": 18,
+      "endRow": 27,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-REF",
+    "id": 6693,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "9(12)",
+    "definition": {
+      "startRow": 28,
+      "startColumn": 15,
+      "endRow": 28,
+      "endColumn": 57,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-TYPE",
+    "id": 6694,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "X(3)",
+    "definition": {
+      "startRow": 29,
+      "startColumn": 15,
+      "endRow": 29,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DESC",
+    "id": 6713,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "X(40)",
+    "definition": {
+      "startRow": 48,
+      "startColumn": 15,
+      "endRow": 48,
+      "endColumn": 57,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DESC-XFR-HEADER",
+    "id": 6715,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(26)",
+    "definition": {
+      "startRow": 50,
+      "startColumn": 17,
+      "endRow": 50,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DESC-XFR-SORTCODE",
+    "id": 6717,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 53,
+      "startColumn": 17,
+      "endRow": 54,
+      "endColumn": 29,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-DESC-XFR-ACCOUNT",
+    "id": 6718,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 55,
+      "startColumn": 17,
+      "endRow": 56,
+      "endColumn": 29,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-CUSTOMER",
+    "id": 6720,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 58,
+      "startColumn": 17,
+      "endRow": 58,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-ACCTYPE",
+    "id": 6721,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 59,
+      "startColumn": 17,
+      "endRow": 59,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-LAST-DD",
+    "id": 6722,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 60,
+      "startColumn": 17,
+      "endRow": 60,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-LAST-MM",
+    "id": 6723,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 61,
+      "startColumn": 17,
+      "endRow": 61,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-LAST-YYYY",
+    "id": 6724,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 62,
+      "startColumn": 17,
+      "endRow": 62,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-NEXT-DD",
+    "id": 6725,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 63,
+      "startColumn": 17,
+      "endRow": 63,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-NEXT-MM",
+    "id": 6726,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 64,
+      "startColumn": 17,
+      "endRow": 64,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-NEXT-YYYY",
+    "id": 6727,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 65,
+      "startColumn": 17,
+      "endRow": 65,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELACC-FOOTER",
+    "id": 6728,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 66,
+      "startColumn": 17,
+      "endRow": 66,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-CUSTOMER",
+    "id": 6731,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 70,
+      "startColumn": 17,
+      "endRow": 70,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-ACCTYPE",
+    "id": 6732,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 71,
+      "startColumn": 17,
+      "endRow": 71,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-LAST-DD",
+    "id": 6733,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 72,
+      "startColumn": 17,
+      "endRow": 72,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-LAST-MM",
+    "id": 6734,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 73,
+      "startColumn": 17,
+      "endRow": 73,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-LAST-YYYY",
+    "id": 6735,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 74,
+      "startColumn": 17,
+      "endRow": 74,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-NEXT-DD",
+    "id": 6736,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 75,
+      "startColumn": 17,
+      "endRow": 75,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-NEXT-MM",
+    "id": 6737,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 76,
+      "startColumn": 17,
+      "endRow": 76,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-NEXT-YYYY",
+    "id": 6738,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 77,
+      "startColumn": 17,
+      "endRow": 77,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CREACC-FOOTER",
+    "id": 6739,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 78,
+      "startColumn": 17,
+      "endRow": 78,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-SORTCODE",
+    "id": 6742,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 82,
+      "startColumn": 17,
+      "endRow": 82,
+      "endColumn": 55,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-CUSTOMER",
+    "id": 6743,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 83,
+      "startColumn": 17,
+      "endRow": 83,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-NAME",
+    "id": 6744,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(14)",
+    "definition": {
+      "startRow": 84,
+      "startColumn": 17,
+      "endRow": 84,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-DOB-YYYY",
+    "id": 6745,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 85,
+      "startColumn": 17,
+      "endRow": 85,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-FILLER",
+    "id": 6746,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X",
+    "definition": {
+      "startRow": 86,
+      "startColumn": 17,
+      "endRow": 86,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-DOB-MM",
+    "id": 6748,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 88,
+      "startColumn": 17,
+      "endRow": 88,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-FILLER2",
+    "id": 6749,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X",
+    "definition": {
+      "startRow": 89,
+      "startColumn": 17,
+      "endRow": 89,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-DELCUS-DOB-DD",
+    "id": 6751,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 91,
+      "startColumn": 17,
+      "endRow": 91,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-SORTCODE",
+    "id": 6753,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 93,
+      "startColumn": 17,
+      "endRow": 93,
+      "endColumn": 55,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-CUSTOMER",
+    "id": 6754,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 94,
+      "startColumn": 17,
+      "endRow": 94,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-NAME",
+    "id": 6755,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X(14)",
+    "definition": {
+      "startRow": 95,
+      "startColumn": 17,
+      "endRow": 95,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-DOB-YYYY",
+    "id": 6756,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 96,
+      "startColumn": 17,
+      "endRow": 96,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-FILLER",
+    "id": 6757,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X",
+    "definition": {
+      "startRow": 97,
+      "startColumn": 17,
+      "endRow": 97,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-DOB-MM",
+    "id": 6759,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 99,
+      "startColumn": 17,
+      "endRow": 99,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-FILLER2",
+    "id": 6760,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "X",
+    "definition": {
+      "startRow": 100,
+      "startColumn": 17,
+      "endRow": 100,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-DESC-CRECUS-DOB-DD",
+    "id": 6762,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 102,
+      "startColumn": 17,
+      "endRow": 102,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROC-TRAN-AMOUNT",
+    "id": 6763,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PROCTRAN-AREA",
+    "iLevel": 5,
+    "PIC": "S9(10)V99",
+    "definition": {
+      "startRow": 103,
+      "startColumn": 15,
+      "endRow": 103,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/PROCTRAN.cpy"
+    }
+  },
+  {
+    "name": "PROCTRAN-RIDFLD",
+    "id": 6764,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 122,
+      "startColumn": 8,
+      "endRow": 122,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICS-RESP",
+    "id": 6766,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICS-WORK-AREA",
+    "iLevel": 5,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 125,
+      "startColumn": 11,
+      "endRow": 125,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICS-RESP2",
+    "id": 6767,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICS-WORK-AREA",
+    "iLevel": 5,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 126,
+      "startColumn": 11,
+      "endRow": 126,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CUSTOMER-NO-NUM",
+    "id": 6768,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 128,
+      "startColumn": 8,
+      "endRow": 128,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TIME-NOW",
+    "id": 6770,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TIME-DATA",
+    "iLevel": 3,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 131,
+      "startColumn": 11,
+      "endRow": 131,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TIME-NOW-GRP-HH",
+    "id": 6772,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TIME-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 133,
+      "startColumn": 14,
+      "endRow": 133,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TIME-NOW-GRP-MM",
+    "id": 6773,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TIME-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 134,
+      "startColumn": 14,
+      "endRow": 134,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TIME-NOW-GRP-SS",
+    "id": 6774,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TIME-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 135,
+      "startColumn": 14,
+      "endRow": 135,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ABEND-PGM",
+    "id": 6775,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 137,
+      "startColumn": 8,
+      "endRow": 137,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "ABND-UTIME-KEY",
+    "id": 6778,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 5,
+    "PIC": "S9(15)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 15,
+      "endRow": 8,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-TASKNO-KEY",
+    "id": 6779,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 5,
+    "PIC": "9(4)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 15,
+      "endRow": 9,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-APPLID",
+    "id": 6780,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 10,
+      "startColumn": 12,
+      "endRow": 10,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-TRANID",
+    "id": 6781,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 12,
+      "endRow": 11,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-DATE",
+    "id": 6782,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 12,
+      "endRow": 12,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-TIME",
+    "id": 6783,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 12,
+      "endRow": 13,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-CODE",
+    "id": 6784,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 12,
+      "endRow": 14,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-PROGRAM",
+    "id": 6785,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 12,
+      "endRow": 15,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-RESPCODE",
+    "id": 6786,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 12,
+      "endRow": 17,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-RESP2CODE",
+    "id": 6787,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 12,
+      "endRow": 19,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-SQLCODE",
+    "id": 6788,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 20,
+      "startColumn": 12,
+      "endRow": 21,
+      "endColumn": 41,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "ABND-FREEFORM",
+    "id": 6789,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "ABNDINFO-REC",
+    "iLevel": 3,
+    "PIC": "X(600)",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 12,
+      "endRow": 22,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/ABNDINFO.cpy"
+    }
+  },
+  {
+    "name": "FILE-RETRY",
+    "id": 6790,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "999",
+    "definition": {
+      "startRow": 142,
+      "startColumn": 8,
+      "endRow": 142,
+      "endColumn": 49,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-EXIT-RETRY-LOOP",
+    "id": 6791,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 143,
+      "startColumn": 8,
+      "endRow": 143,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CUSTOMER-EYECATCHER",
+    "id": 6794,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 5,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 15,
+      "endRow": 8,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-SORTCODE",
+    "id": 6797,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 18,
+      "endRow": 11,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-NUMBER",
+    "id": 6798,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 18,
+      "endRow": 12,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-TITLE",
+    "id": 6800,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 18,
+      "endRow": 14,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-FIRST-NAME",
+    "id": 6801,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 18,
+      "endRow": 15,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-LAST-NAME",
+    "id": 6802,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 18,
+      "endRow": 16,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-DOB-DAY",
+    "id": 6804,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 18,
+      "endRow": 18,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-DOB-MONTH",
+    "id": 6805,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 19,
+      "startColumn": 18,
+      "endRow": 19,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-DOB-YEAR",
+    "id": 6806,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 20,
+      "startColumn": 18,
+      "endRow": 20,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-PHONE",
+    "id": 6807,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 5,
+    "PIC": "X(20)",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 15,
+      "endRow": 21,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-ADDR-LINE1",
+    "id": 6809,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 18,
+      "endRow": 23,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-ADDR-LINE2",
+    "id": 6810,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 24,
+      "startColumn": 18,
+      "endRow": 24,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CITY",
+    "id": 6811,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 25,
+      "startColumn": 18,
+      "endRow": 25,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-POSTCODE",
+    "id": 6812,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 26,
+      "startColumn": 18,
+      "endRow": 26,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-COUNTRY",
+    "id": 6813,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 27,
+      "startColumn": 18,
+      "endRow": 27,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-STATUS",
+    "id": 6814,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 5,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 28,
+      "startColumn": 15,
+      "endRow": 28,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CREATED-DAY",
+    "id": 6819,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 33,
+      "startColumn": 18,
+      "endRow": 33,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CREATED-MONTH",
+    "id": 6820,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 34,
+      "startColumn": 18,
+      "endRow": 34,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CREATED-YEAR",
+    "id": 6821,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 35,
+      "startColumn": 18,
+      "endRow": 35,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CREDIT-SCORE",
+    "id": 6822,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 5,
+    "PIC": "999",
+    "definition": {
+      "startRow": 36,
+      "startColumn": 15,
+      "endRow": 36,
+      "endColumn": 62,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CS-REVIEW-DAY",
+    "id": 6824,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 38,
+      "startColumn": 18,
+      "endRow": 38,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CS-REVIEW-MONTH",
+    "id": 6825,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 39,
+      "startColumn": 18,
+      "endRow": 39,
+      "endColumn": 69,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CS-REVIEW-YEAR",
+    "id": 6826,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "OUTPUT-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 40,
+      "startColumn": 18,
+      "endRow": 40,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTOMER.cpy"
+    }
+  },
+  {
+    "name": "RETURN-DATA-EYECATCHER",
+    "id": 6828,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "RETURN-DATA",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 149,
+      "startColumn": 11,
+      "endRow": 149,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "RETURN-DATA-NUMBER",
+    "id": 6829,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "RETURN-DATA",
+    "iLevel": 3,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 150,
+      "startColumn": 11,
+      "endRow": 150,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "RETURN-DATA-NAME",
+    "id": 6830,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "RETURN-DATA",
+    "iLevel": 3,
+    "PIC": "X(60)",
+    "definition": {
+      "startRow": 151,
+      "startColumn": 11,
+      "endRow": 151,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "RETURN-DATA-ADDRESS",
+    "id": 6831,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "RETURN-DATA",
+    "iLevel": 3,
+    "PIC": "X(160)",
+    "definition": {
+      "startRow": 152,
+      "startColumn": 11,
+      "endRow": 152,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "RETURN-DATA-DATE-OF-BIRTH",
+    "id": 6832,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "RETURN-DATA",
+    "iLevel": 3,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 153,
+      "startColumn": 11,
+      "endRow": 153,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "REQUIRED-SORT-CODE",
+    "id": 6834,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-KY",
+    "iLevel": 3,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 157,
+      "startColumn": 11,
+      "endRow": 157,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "REQUIRED-CUST-NUMBER",
+    "id": 6835,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-KY",
+    "iLevel": 3,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 158,
+      "startColumn": 11,
+      "endRow": 158,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "RANDOM-CUSTOMER",
+    "id": 6836,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 160,
+      "startColumn": 8,
+      "endRow": 160,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HIGHEST-CUST-NUMBER",
+    "id": 6837,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 161,
+      "startColumn": 8,
+      "endRow": 161,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "EXIT-VSAM-READ",
+    "id": 6838,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 163,
+      "startColumn": 8,
+      "endRow": 163,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "EXIT-DB2-READ",
+    "id": 6839,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 164,
+      "startColumn": 8,
+      "endRow": 164,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-V-RETRIED",
+    "id": 6840,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 166,
+      "startColumn": 8,
+      "endRow": 166,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-D-RETRIED",
+    "id": 6841,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 167,
+      "startColumn": 8,
+      "endRow": 167,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "SQLCODE-DISPLAY",
+    "id": 6842,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 169,
+      "startColumn": 8,
+      "endRow": 170,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-ACT-NAME",
+    "id": 6845,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 5,
+    "PIC": "X(9)",
+    "definition": {
+      "startRow": 178,
+      "startColumn": 14,
+      "endRow": 179,
+      "endColumn": 73,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-TEST-SORT",
+    "id": 6846,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 5,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 180,
+      "startColumn": 14,
+      "endRow": 181,
+      "endColumn": 70,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-FILL",
+    "id": 6847,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 5,
+    "PIC": "XX",
+    "definition": {
+      "startRow": 182,
+      "startColumn": 14,
+      "endRow": 183,
+      "endColumn": 66,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-INC",
+    "id": 6848,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 3,
+    "PIC": "9(16)",
+    "definition": {
+      "startRow": 185,
+      "startColumn": 11,
+      "endRow": 186,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-VALUE",
+    "id": 6849,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 3,
+    "PIC": "9(16)",
+    "definition": {
+      "startRow": 187,
+      "startColumn": 11,
+      "endRow": 188,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-CUST-NO-RESP",
+    "id": 6850,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "NCS-CUST-NO-STUFF",
+    "iLevel": 3,
+    "PIC": "XX",
+    "definition": {
+      "startRow": 190,
+      "startColumn": 11,
+      "endRow": 190,
+      "endColumn": 66,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-DISP-CUST-NO-VAL",
+    "id": 6851,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(18)",
+    "definition": {
+      "startRow": 192,
+      "startColumn": 8,
+      "endRow": 192,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CUST-REC-LEN",
+    "id": 6852,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 194,
+      "startColumn": 8,
+      "endRow": 195,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "NCS-UPDATED",
+    "id": 6853,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 197,
+      "startColumn": 8,
+      "endRow": 197,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-U-TIME",
+    "id": 6854,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(15)",
+    "definition": {
+      "startRow": 199,
+      "startColumn": 8,
+      "endRow": 199,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE",
+    "id": 6855,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 200,
+      "startColumn": 8,
+      "endRow": 200,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-DD",
+    "id": 6857,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP",
+    "iLevel": 3,
+    "PIC": "99",
+    "definition": {
+      "startRow": 202,
+      "startColumn": 11,
+      "endRow": 202,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "FILLER #7",
+    "id": 6858,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 203,
+      "startColumn": 11,
+      "endRow": 203,
+      "endColumn": 47,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-MM",
+    "id": 6859,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP",
+    "iLevel": 3,
+    "PIC": "99",
+    "definition": {
+      "startRow": 204,
+      "startColumn": 11,
+      "endRow": 204,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "FILLER #8",
+    "id": 6860,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 205,
+      "startColumn": 11,
+      "endRow": 205,
+      "endColumn": 47,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-YYYY",
+    "id": 6861,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP",
+    "iLevel": 3,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 206,
+      "startColumn": 11,
+      "endRow": 206,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-DD-X",
+    "id": 6863,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP-X",
+    "iLevel": 3,
+    "PIC": "XX",
+    "definition": {
+      "startRow": 209,
+      "startColumn": 11,
+      "endRow": 209,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "FILLER #9",
+    "id": 6864,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP-X",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 210,
+      "startColumn": 11,
+      "endRow": 210,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-MM-X",
+    "id": 6865,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP-X",
+    "iLevel": 3,
+    "PIC": "XX",
+    "definition": {
+      "startRow": 211,
+      "startColumn": 11,
+      "endRow": 211,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "FILLER #10",
+    "id": 6866,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP-X",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 212,
+      "startColumn": 11,
+      "endRow": 212,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ORIG-DATE-YYYY-X",
+    "id": 6867,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-ORIG-DATE-GRP-X",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 213,
+      "startColumn": 11,
+      "endRow": 213,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "STORED-SORTCODE",
+    "id": 6868,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 215,
+      "startColumn": 8,
+      "endRow": 215,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "STORED-CUSTNO",
+    "id": 6869,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 216,
+      "startColumn": 8,
+      "endRow": 216,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "STORED-NAME",
+    "id": 6870,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(60)",
+    "definition": {
+      "startRow": 217,
+      "startColumn": 8,
+      "endRow": 217,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "STORED-DOB",
+    "id": 6871,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 218,
+      "startColumn": 8,
+      "endRow": 218,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-EIBTASKN12",
+    "id": 6872,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(12)",
+    "definition": {
+      "startRow": 220,
+      "startColumn": 8,
+      "endRow": 220,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "PROCTRAN-RETRY",
+    "id": 6873,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 77,
+    "PIC": "999",
+    "definition": {
+      "startRow": 221,
+      "startColumn": 8,
+      "endRow": 221,
+      "endColumn": 49,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "REQUIRED-SORT-CODE2",
+    "id": 6875,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-KY2",
+    "iLevel": 3,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 224,
+      "startColumn": 11,
+      "endRow": 224,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "REQUIRED-CUST-NUMBER2",
+    "id": 6876,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-KY2",
+    "iLevel": 3,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 225,
+      "startColumn": 11,
+      "endRow": 225,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CUSTOMER-KY2-BYTES",
+    "id": 6877,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 227,
+      "startColumn": 8,
+      "endRow": 228,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "HIGHEST-CUST-NUMBER",
+    "id": 6878,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 230,
+      "startColumn": 8,
+      "endRow": 230,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CC-CNT",
+    "id": 6879,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9",
+    "definition": {
+      "startRow": 231,
+      "startColumn": 8,
+      "endRow": 231,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-FINISHED-FETCHING",
+    "id": 6880,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 232,
+      "startColumn": 8,
+      "endRow": 232,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-RETRIEVED-CNT",
+    "id": 6881,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9",
+    "definition": {
+      "startRow": 233,
+      "startColumn": 8,
+      "endRow": 233,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHANNEL-NAME",
+    "id": 6882,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 234,
+      "startColumn": 8,
+      "endRow": 234,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CREDIT-CHECK-ERROR",
+    "id": 6883,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 235,
+      "startColumn": 8,
+      "endRow": 235,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ACTUAL-CS-SCR",
+    "id": 6884,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 236,
+      "startColumn": 8,
+      "endRow": 236,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TOTAL-CS-SCR",
+    "id": 6885,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 237,
+      "startColumn": 8,
+      "endRow": 237,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ANY-CHILD-TKN",
+    "id": 6887,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-TOKENS",
+    "iLevel": 3,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 240,
+      "startColumn": 11,
+      "endRow": 240,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ANY-CHILD-FETCH-TKN",
+    "id": 6888,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-TOKENS",
+    "iLevel": 3,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 241,
+      "startColumn": 11,
+      "endRow": 241,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ANY-CHILD-FETCH-CHAN",
+    "id": 6889,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 243,
+      "startColumn": 8,
+      "endRow": 243,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-ANY-CHILD-FETCH-ABCODE",
+    "id": 6890,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 244,
+      "startColumn": 8,
+      "endRow": 244,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-ISSUED-CNT",
+    "id": 6891,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9",
+    "definition": {
+      "startRow": 245,
+      "startColumn": 8,
+      "endRow": 245,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-DETAILS",
+    "id": 6893,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-ARRAY",
+    "iLevel": 3,
+    "PIC": null,
+    "definition": {
+      "startRow": 248,
+      "startColumn": 11,
+      "endRow": 248,
+      "endColumn": 46,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CHAN",
+    "id": 6894,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-ARRAY",
+    "iLevel": 5,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 249,
+      "startColumn": 14,
+      "endRow": 249,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-TKN",
+    "id": 6895,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-ARRAY",
+    "iLevel": 5,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 250,
+      "startColumn": 14,
+      "endRow": 250,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-RECEIVED-CNT",
+    "id": 6896,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9",
+    "definition": {
+      "startRow": 252,
+      "startColumn": 8,
+      "endRow": 252,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-RECEIVE-CHILD-DTLS",
+    "id": 6898,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-RECEIVE-CHILD-ARRAY",
+    "iLevel": 3,
+    "PIC": null,
+    "definition": {
+      "startRow": 254,
+      "startColumn": 11,
+      "endRow": 254,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-RECEIVE-CHILD-CHAN",
+    "id": 6899,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-RECEIVE-CHILD-ARRAY",
+    "iLevel": 5,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 255,
+      "startColumn": 14,
+      "endRow": 255,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-FETCH-COMPST",
+    "id": 6900,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 257,
+      "startColumn": 8,
+      "endRow": 257,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-EYECATCHER",
+    "id": 6903,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 261,
+      "startColumn": 14,
+      "endRow": 261,
+      "endColumn": 53,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-SORTCODE",
+    "id": 6905,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 263,
+      "startColumn": 17,
+      "endRow": 263,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-NUMBER",
+    "id": 6906,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 264,
+      "startColumn": 17,
+      "endRow": 264,
+      "endColumn": 62,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-TITLE",
+    "id": 6908,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 266,
+      "startColumn": 17,
+      "endRow": 266,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-FIRST-NAME",
+    "id": 6909,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 267,
+      "startColumn": 17,
+      "endRow": 267,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-LAST-NAME",
+    "id": 6910,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 268,
+      "startColumn": 17,
+      "endRow": 268,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-DOB-DAY",
+    "id": 6912,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 270,
+      "startColumn": 17,
+      "endRow": 270,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-DOB-MONTH",
+    "id": 6913,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 271,
+      "startColumn": 17,
+      "endRow": 271,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-DOB-YEAR",
+    "id": 6914,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 272,
+      "startColumn": 17,
+      "endRow": 272,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-PHONE",
+    "id": 6915,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "X(20)",
+    "definition": {
+      "startRow": 273,
+      "startColumn": 14,
+      "endRow": 273,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-ADDR-LINE1",
+    "id": 6917,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 275,
+      "startColumn": 17,
+      "endRow": 275,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-ADDR-LINE2",
+    "id": 6918,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 276,
+      "startColumn": 17,
+      "endRow": 276,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CITY",
+    "id": 6919,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 277,
+      "startColumn": 17,
+      "endRow": 277,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-POSTCODE",
+    "id": 6920,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 278,
+      "startColumn": 17,
+      "endRow": 278,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-COUNTRY",
+    "id": 6921,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 279,
+      "startColumn": 17,
+      "endRow": 279,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-STATUS",
+    "id": 6922,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 280,
+      "startColumn": 14,
+      "endRow": 280,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CREATED-DAY",
+    "id": 6924,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 282,
+      "startColumn": 17,
+      "endRow": 282,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CREATED-MONTH",
+    "id": 6925,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 283,
+      "startColumn": 17,
+      "endRow": 283,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CREATED-YEAR",
+    "id": 6926,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 284,
+      "startColumn": 17,
+      "endRow": 284,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CREDIT-SCORE",
+    "id": 6927,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "999",
+    "definition": {
+      "startRow": 285,
+      "startColumn": 14,
+      "endRow": 285,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CS-REVIEW-DAY",
+    "id": 6929,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 287,
+      "startColumn": 17,
+      "endRow": 287,
+      "endColumn": 59,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CS-REVIEW-MONTH",
+    "id": 6930,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "99",
+    "definition": {
+      "startRow": 288,
+      "startColumn": 17,
+      "endRow": 288,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CS-REVIEW-YEAR",
+    "id": 6931,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 7,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 289,
+      "startColumn": 17,
+      "endRow": 289,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-SUCCESS",
+    "id": 6932,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "X",
+    "definition": {
+      "startRow": 290,
+      "startColumn": 14,
+      "endRow": 290,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-FAIL-CODE",
+    "id": 6933,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CHILD-DATA",
+    "iLevel": 5,
+    "PIC": "X",
+    "definition": {
+      "startRow": 291,
+      "startColumn": 14,
+      "endRow": 291,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CONTAINER-NAME",
+    "id": 6934,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 293,
+      "startColumn": 8,
+      "endRow": 293,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CHILD-CONTAINER-LEN",
+    "id": 6935,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 294,
+      "startColumn": 8,
+      "endRow": 295,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-RUN-TRANSID",
+    "id": 6936,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 296,
+      "startColumn": 8,
+      "endRow": 296,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CICSTSLEVEL",
+    "id": 6937,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 298,
+      "startColumn": 8,
+      "endRow": 298,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICSTSLEVEL",
+    "id": 6939,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICSTS-LEVEL-DATA",
+    "iLevel": 3,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 301,
+      "startColumn": 11,
+      "endRow": 301,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICSTS-LEVEL-NUM-VV",
+    "id": 6941,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICSTS-LEVEL-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 303,
+      "startColumn": 14,
+      "endRow": 303,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICSTS-LEVEL-NUM-RR",
+    "id": 6942,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICSTS-LEVEL-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 304,
+      "startColumn": 14,
+      "endRow": 304,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CICSTS-LEVEL-NUM-MM",
+    "id": 6943,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CICSTS-LEVEL-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 305,
+      "startColumn": 14,
+      "endRow": 305,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-YYYY",
+    "id": 6946,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "9(4)",
+    "definition": {
+      "startRow": 309,
+      "startColumn": 14,
+      "endRow": 309,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-MM",
+    "id": 6947,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 310,
+      "startColumn": 14,
+      "endRow": 310,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-DD",
+    "id": 6948,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 311,
+      "startColumn": 14,
+      "endRow": 311,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-HOURS",
+    "id": 6950,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 313,
+      "startColumn": 14,
+      "endRow": 313,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-MINS",
+    "id": 6951,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 314,
+      "startColumn": 14,
+      "endRow": 314,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-SECS",
+    "id": 6952,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 315,
+      "startColumn": 14,
+      "endRow": 315,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-MILLI",
+    "id": 6953,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 316,
+      "startColumn": 14,
+      "endRow": 316,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-DIFFERENCE-FROM-GMT",
+    "id": 6954,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-CURRENT-DATE-DATA",
+    "iLevel": 3,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 317,
+      "startColumn": 11,
+      "endRow": 317,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CURRENT-DATE-9",
+    "id": 6955,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 319,
+      "startColumn": 8,
+      "endRow": 319,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-INT",
+    "id": 6956,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 320,
+      "startColumn": 8,
+      "endRow": 320,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-REVIEW-DATE-ADD",
+    "id": 6957,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "99",
+    "definition": {
+      "startRow": 321,
+      "startColumn": 8,
+      "endRow": 321,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-NEW-REVIEW-DATE-INT",
+    "id": 6958,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 322,
+      "startColumn": 8,
+      "endRow": 322,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-NEW-REVIEW-YYYYMMDD",
+    "id": 6959,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 323,
+      "startColumn": 8,
+      "endRow": 323,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-PUT-CONT-NAME",
+    "id": 6960,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(16)",
+    "definition": {
+      "startRow": 324,
+      "startColumn": 8,
+      "endRow": 324,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-PUT-CONT-LEN",
+    "id": 6961,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 325,
+      "startColumn": 8,
+      "endRow": 326,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-SEED",
+    "id": 6962,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(15)",
+    "definition": {
+      "startRow": 328,
+      "startColumn": 8,
+      "endRow": 328,
+      "endColumn": 57,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "STORM-DRAIN-CONDITION",
+    "id": 6963,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(20)",
+    "definition": {
+      "startRow": 330,
+      "startColumn": 8,
+      "endRow": 330,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-DATE-OF-BIRTH-ERROR",
+    "id": 6964,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 332,
+      "startColumn": 8,
+      "endRow": 332,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-DATE-OF-BIRTH-LILLIAN",
+    "id": 6965,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 333,
+      "startColumn": 8,
+      "endRow": 333,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "DATE-OF-BIRTH-FORMAT-LENGTH",
+    "id": 6967,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FORMAT",
+    "iLevel": 3,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 336,
+      "startColumn": 11,
+      "endRow": 338,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "DATE-OF-BIRTH-FORMAT-TEXT",
+    "id": 6968,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FORMAT",
+    "iLevel": 3,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 339,
+      "startColumn": 11,
+      "endRow": 339,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "DATE-OF-BIRTH-CEEDAYS-LENGTH",
+    "id": 6970,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FOR-CEEDAYS",
+    "iLevel": 3,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 342,
+      "startColumn": 11,
+      "endRow": 344,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CEEDAYS-YEAR",
+    "id": 6971,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FOR-CEEDAYS",
+    "iLevel": 3,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 345,
+      "startColumn": 11,
+      "endRow": 345,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CEEDAYS-MONTH",
+    "id": 6972,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FOR-CEEDAYS",
+    "iLevel": 3,
+    "PIC": "99",
+    "definition": {
+      "startRow": 346,
+      "startColumn": 11,
+      "endRow": 346,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CEEDAYS-DAY",
+    "id": 6973,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DATE-OF-BIRTH-FOR-CEEDAYS",
+    "iLevel": 3,
+    "PIC": "99",
+    "definition": {
+      "startRow": 347,
+      "startColumn": 11,
+      "endRow": 347,
+      "endColumn": 48,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "SEVERITY",
+    "id": 8014,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 4,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 353,
+      "startColumn": 17,
+      "endRow": 353,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "MSG-NO",
+    "id": 8015,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 4,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 354,
+      "startColumn": 17,
+      "endRow": 354,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CLASS-CODE",
+    "id": 8017,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 4,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 357,
+      "startColumn": 17,
+      "endRow": 357,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CAUSE-CODE",
+    "id": 8018,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 4,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 358,
+      "startColumn": 17,
+      "endRow": 358,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CASE-SEV-CTL",
+    "id": 8019,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 359,
+      "startColumn": 14,
+      "endRow": 359,
+      "endColumn": 47,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "FACILITY-ID",
+    "id": 8020,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 3,
+    "PIC": "XXX",
+    "definition": {
+      "startRow": 360,
+      "startColumn": 14,
+      "endRow": 360,
+      "endColumn": 49,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "I-S-INFO",
+    "id": 8021,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "FC",
+    "iLevel": 2,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 361,
+      "startColumn": 11,
+      "endRow": 361,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-LILLIAN",
+    "id": 8022,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 363,
+      "startColumn": 8,
+      "endRow": 363,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-SECONDS",
+    "id": 8023,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": null,
+    "definition": {
+      "startRow": 364,
+      "startColumn": 8,
+      "endRow": 364,
+      "endColumn": 35,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-YEAR",
+    "id": 8025,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(4)",
+    "definition": {
+      "startRow": 366,
+      "startColumn": 11,
+      "endRow": 366,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-MONTH",
+    "id": 8026,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(2)",
+    "definition": {
+      "startRow": 367,
+      "startColumn": 11,
+      "endRow": 367,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-DAY",
+    "id": 8027,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(2)",
+    "definition": {
+      "startRow": 368,
+      "startColumn": 11,
+      "endRow": 368,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-HOURS",
+    "id": 8028,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(2)",
+    "definition": {
+      "startRow": 369,
+      "startColumn": 11,
+      "endRow": 369,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-MINUTES",
+    "id": 8029,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(2)",
+    "definition": {
+      "startRow": 370,
+      "startColumn": 11,
+      "endRow": 370,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-SECONDS",
+    "id": 8030,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "9(2)",
+    "definition": {
+      "startRow": 371,
+      "startColumn": 11,
+      "endRow": 371,
+      "endColumn": 50,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TODAY-G-MILLISECONDS",
+    "id": 8031,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "WS-TODAY-GREGORIAN",
+    "iLevel": 3,
+    "PIC": "999",
+    "definition": {
+      "startRow": 372,
+      "startColumn": 11,
+      "endRow": 372,
+      "endColumn": 49,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "VSTRING-LENGTH",
+    "id": 8033,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CHRDATE",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 375,
+      "startColumn": 11,
+      "endRow": 375,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "VSTRING-CHAR",
+    "id": 8035,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CHRDATE",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 377,
+      "startColumn": 14,
+      "endRow": 380,
+      "endColumn": 31,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "VSTRING-LENGTH",
+    "id": 8037,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PICSTR",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 382,
+      "startColumn": 11,
+      "endRow": 382,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "VSTRING-CHAR",
+    "id": 8039,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "PICSTR",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 384,
+      "startColumn": 14,
+      "endRow": 387,
+      "endColumn": 30,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "LILIAN",
+    "id": 8040,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 388,
+      "startColumn": 8,
+      "endRow": 388,
+      "endColumn": 58,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-CUSTOMER-AGE",
+    "id": 8041,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "S9999",
+    "definition": {
+      "startRow": 390,
+      "startColumn": 8,
+      "endRow": 390,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "CUSTOMER-CONTROL-EYECATCHER",
+    "id": 8044,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 15,
+      "endRow": 8,
+      "endColumn": 67,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CONTROL-SORTCODE",
+    "id": 8047,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 7,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 18,
+      "endRow": 11,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CONTROL-NUMBER",
+    "id": 8048,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 7,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 18,
+      "endRow": 12,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "NUMBER-OF-CUSTOMERS",
+    "id": 8049,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 15,
+      "endRow": 13,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "LAST-CUSTOMER-NUMBER",
+    "id": 8050,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 15,
+      "endRow": 14,
+      "endColumn": 72,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CONTROL-SUCCESS-FLAG",
+    "id": 8051,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "X",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 15,
+      "endRow": 15,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "CUSTOMER-CONTROL-FAIL-CODE",
+    "id": 8053,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "X",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 15,
+      "endRow": 17,
+      "endColumn": 51,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "FILLER #11",
+    "id": 8054,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "X(38)",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 15,
+      "endRow": 18,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "FILLER #12",
+    "id": 8055,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "X(160)",
+    "definition": {
+      "startRow": 19,
+      "startColumn": 15,
+      "endRow": 19,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "FILLER #13",
+    "id": 8056,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 20,
+      "startColumn": 15,
+      "endRow": 20,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "FILLER #14",
+    "id": 8057,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "999",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 15,
+      "endRow": 21,
+      "endColumn": 62,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "FILLER #15",
+    "id": 8058,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "CUSTOMER-CONTROL",
+    "iLevel": 5,
+    "PIC": "9(8)",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 15,
+      "endRow": 22,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CUSTCTRL.cpy"
+    }
+  },
+  {
+    "name": "WS-UNSTR-TITLE",
+    "id": 8059,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(9)",
+    "definition": {
+      "startRow": 395,
+      "startColumn": 8,
+      "endRow": 395,
+      "endColumn": 65,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-FULL-NAME",
+    "id": 8060,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X(110)",
+    "definition": {
+      "startRow": 396,
+      "startColumn": 8,
+      "endRow": 396,
+      "endColumn": 68,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "WS-TITLE-VALID",
+    "id": 8061,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "",
+    "iLevel": 1,
+    "PIC": "X",
+    "definition": {
+      "startRow": 397,
+      "startColumn": 8,
+      "endRow": 397,
+      "endColumn": 47,
+      "path": "/bobz-understand/projects/BankofZ/zOS Cobol/CRECUST.cbl"
+    }
+  },
+  {
+    "name": "COMM-EYECATCHER",
+    "id": 8063,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 7,
+      "startColumn": 11,
+      "endRow": 7,
+      "endColumn": 55,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-SORTCODE",
+    "id": 8065,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "9(6)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 14,
+      "endRow": 9,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-NUMBER",
+    "id": 8066,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "9(10)",
+    "definition": {
+      "startRow": 10,
+      "startColumn": 14,
+      "endRow": 10,
+      "endColumn": 64,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-TITLE",
+    "id": 8068,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 14,
+      "endRow": 12,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-FIRST-NAME",
+    "id": 8069,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 14,
+      "endRow": 13,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-LAST-NAME",
+    "id": 8070,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 14,
+      "endRow": 14,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-DOB-DAY",
+    "id": 8072,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 14,
+      "endRow": 16,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-DOB-MONTH",
+    "id": 8073,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 14,
+      "endRow": 17,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-DOB-YEAR",
+    "id": 8074,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 14,
+      "endRow": 18,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-PHONE",
+    "id": 8075,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "X(20)",
+    "definition": {
+      "startRow": 19,
+      "startColumn": 11,
+      "endRow": 19,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-ADDR-LINE1",
+    "id": 8077,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 14,
+      "endRow": 21,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-ADDR-LINE2",
+    "id": 8078,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 14,
+      "endRow": 22,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CITY",
+    "id": 8079,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 14,
+      "endRow": 23,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-POSTCODE",
+    "id": 8080,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 24,
+      "startColumn": 14,
+      "endRow": 24,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-COUNTRY",
+    "id": 8081,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "X(50)",
+    "definition": {
+      "startRow": 25,
+      "startColumn": 14,
+      "endRow": 25,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-STATUS",
+    "id": 8082,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "X(10)",
+    "definition": {
+      "startRow": 26,
+      "startColumn": 11,
+      "endRow": 26,
+      "endColumn": 56,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CREATED-DAY",
+    "id": 8084,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 28,
+      "startColumn": 14,
+      "endRow": 28,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CREATED-MONTH",
+    "id": 8085,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 29,
+      "startColumn": 14,
+      "endRow": 29,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CREATED-YEAR",
+    "id": 8086,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 30,
+      "startColumn": 14,
+      "endRow": 30,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CREDIT-SCORE",
+    "id": 8087,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "999",
+    "definition": {
+      "startRow": 31,
+      "startColumn": 11,
+      "endRow": 31,
+      "endColumn": 54,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CS-REVIEW-DAY",
+    "id": 8089,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 33,
+      "startColumn": 14,
+      "endRow": 33,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CS-REVIEW-MONTH",
+    "id": 8090,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "99",
+    "definition": {
+      "startRow": 34,
+      "startColumn": 14,
+      "endRow": 34,
+      "endColumn": 61,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-CS-REVIEW-YEAR",
+    "id": 8091,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 5,
+    "PIC": "9999",
+    "definition": {
+      "startRow": 35,
+      "startColumn": 14,
+      "endRow": 35,
+      "endColumn": 63,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-SUCCESS",
+    "id": 8092,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 36,
+      "startColumn": 11,
+      "endRow": 36,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "COMM-FAIL-CODE",
+    "id": 8093,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHCOMMAREA",
+    "iLevel": 3,
+    "PIC": "X",
+    "definition": {
+      "startRow": 37,
+      "startColumn": 11,
+      "endRow": 37,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/CRECUST.cpy"
+    }
+  },
+  {
+    "name": "EIBTIME",
+    "id": 8095,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 2,
+      "startColumn": 12,
+      "endRow": 2,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBDATE",
+    "id": 8096,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 3,
+      "startColumn": 12,
+      "endRow": 3,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBTRNID",
+    "id": 8097,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 4,
+      "startColumn": 12,
+      "endRow": 4,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBTASKN",
+    "id": 8098,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 5,
+      "startColumn": 12,
+      "endRow": 5,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBTRMID",
+    "id": 8099,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 6,
+      "startColumn": 12,
+      "endRow": 6,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "DFHEIGDI",
+    "id": 8100,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 7,
+      "startColumn": 12,
+      "endRow": 7,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBCPOSN",
+    "id": 8101,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 12,
+      "endRow": 8,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBCALEN",
+    "id": 8102,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 12,
+      "endRow": 9,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBAID",
+    "id": 8103,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 10,
+      "startColumn": 12,
+      "endRow": 10,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBFN",
+    "id": 8104,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 12,
+      "endRow": 11,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRCODE",
+    "id": 8105,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 12,
+      "startColumn": 12,
+      "endRow": 12,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBDS",
+    "id": 8106,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 13,
+      "startColumn": 12,
+      "endRow": 13,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBREQID",
+    "id": 8107,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 14,
+      "startColumn": 12,
+      "endRow": 14,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRSRCE",
+    "id": 8108,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 15,
+      "startColumn": 12,
+      "endRow": 15,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBSYNC",
+    "id": 8109,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 16,
+      "startColumn": 12,
+      "endRow": 16,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBFREE",
+    "id": 8110,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 17,
+      "startColumn": 12,
+      "endRow": 17,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRECV",
+    "id": 8111,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 18,
+      "startColumn": 12,
+      "endRow": 18,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBFIL01",
+    "id": 8112,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 19,
+      "startColumn": 12,
+      "endRow": 19,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBATT",
+    "id": 8113,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 20,
+      "startColumn": 12,
+      "endRow": 20,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBEOC",
+    "id": 8114,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 21,
+      "startColumn": 12,
+      "endRow": 21,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBFMH",
+    "id": 8115,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 22,
+      "startColumn": 12,
+      "endRow": 22,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBCOMPL",
+    "id": 8116,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 23,
+      "startColumn": 12,
+      "endRow": 23,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBSIG",
+    "id": 8117,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 24,
+      "startColumn": 12,
+      "endRow": 24,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBCONF",
+    "id": 8118,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 25,
+      "startColumn": 12,
+      "endRow": 25,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBERR",
+    "id": 8119,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 26,
+      "startColumn": 12,
+      "endRow": 26,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBERRCD",
+    "id": 8120,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 27,
+      "startColumn": 12,
+      "endRow": 27,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBSYNRB",
+    "id": 8121,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 28,
+      "startColumn": 12,
+      "endRow": 28,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBNODAT",
+    "id": 8122,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 29,
+      "startColumn": 12,
+      "endRow": 29,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRESP",
+    "id": 8123,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 30,
+      "startColumn": 12,
+      "endRow": 30,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRESP2",
+    "id": 8124,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(8)",
+    "definition": {
+      "startRow": 31,
+      "startColumn": 12,
+      "endRow": 31,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "EIBRLDBK",
+    "id": 8125,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 32,
+      "startColumn": 12,
+      "endRow": 32,
+      "endColumn": 36,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "DFHRESP",
+    "id": 8126,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIBLK",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 33,
+      "startColumn": 12,
+      "endRow": 33,
+      "endColumn": 42,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIBLK.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV0",
+    "id": 8128,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(26)",
+    "definition": {
+      "startRow": 30,
+      "startColumn": 12,
+      "endRow": 30,
+      "endColumn": 40,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV1",
+    "id": 8129,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 31,
+      "startColumn": 12,
+      "endRow": 31,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV2",
+    "id": 8130,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 32,
+      "startColumn": 12,
+      "endRow": 32,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV3",
+    "id": 8131,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 33,
+      "startColumn": 12,
+      "endRow": 33,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV4",
+    "id": 8132,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 34,
+      "startColumn": 12,
+      "endRow": 34,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV5",
+    "id": 8133,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 35,
+      "startColumn": 12,
+      "endRow": 35,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV6",
+    "id": 8134,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 36,
+      "startColumn": 12,
+      "endRow": 36,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV7",
+    "id": 8135,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 37,
+      "startColumn": 12,
+      "endRow": 37,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV8",
+    "id": 8136,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 38,
+      "startColumn": 12,
+      "endRow": 38,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV9",
+    "id": 8137,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 39,
+      "startColumn": 12,
+      "endRow": 39,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV10",
+    "id": 8138,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 40,
+      "startColumn": 12,
+      "endRow": 40,
+      "endColumn": 62,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV11",
+    "id": 8139,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 41,
+      "startColumn": 12,
+      "endRow": 41,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV12",
+    "id": 8140,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 42,
+      "startColumn": 12,
+      "endRow": 42,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV13",
+    "id": 8141,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 43,
+      "startColumn": 12,
+      "endRow": 43,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV14",
+    "id": 8142,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 44,
+      "startColumn": 12,
+      "endRow": 44,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV15",
+    "id": 8143,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 45,
+      "startColumn": 12,
+      "endRow": 45,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV16",
+    "id": 8144,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(9)",
+    "definition": {
+      "startRow": 46,
+      "startColumn": 12,
+      "endRow": 46,
+      "endColumn": 60,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV17",
+    "id": 8145,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 47,
+      "startColumn": 12,
+      "endRow": 47,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV18",
+    "id": 8146,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 48,
+      "startColumn": 12,
+      "endRow": 48,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV19",
+    "id": 8147,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(4)",
+    "definition": {
+      "startRow": 49,
+      "startColumn": 12,
+      "endRow": 49,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV97",
+    "id": 8148,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(7)",
+    "definition": {
+      "startRow": 50,
+      "startColumn": 12,
+      "endRow": 50,
+      "endColumn": 73,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV98",
+    "id": 8149,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 51,
+      "startColumn": 12,
+      "endRow": 51,
+      "endColumn": 71,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DFHEIV99",
+    "id": 8150,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DFHEIV",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 52,
+      "startColumn": 12,
+      "endRow": 52,
+      "endColumn": 52,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DFHEIVAR.CPY"
+    }
+  },
+  {
+    "name": "DIBVER",
+    "id": 8152,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 2,
+      "startColumn": 13,
+      "endRow": 2,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBSTAT",
+    "id": 8153,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 3,
+      "startColumn": 13,
+      "endRow": 3,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBSEGM",
+    "id": 8154,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 4,
+      "startColumn": 13,
+      "endRow": 4,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBFIL01",
+    "id": 8155,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 5,
+      "startColumn": 13,
+      "endRow": 5,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBFIL02",
+    "id": 8156,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(1)",
+    "definition": {
+      "startRow": 6,
+      "startColumn": 13,
+      "endRow": 6,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBSEGLV",
+    "id": 8157,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(2)",
+    "definition": {
+      "startRow": 7,
+      "startColumn": 13,
+      "endRow": 7,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBKFBL",
+    "id": 8158,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "S9(4)",
+    "definition": {
+      "startRow": 8,
+      "startColumn": 13,
+      "endRow": 8,
+      "endColumn": 44,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBDBDNM",
+    "id": 8159,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 9,
+      "startColumn": 13,
+      "endRow": 9,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBDBORG",
+    "id": 8160,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(8)",
+    "definition": {
+      "startRow": 10,
+      "startColumn": 13,
+      "endRow": 10,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  },
+  {
+    "name": "DIBFIL03",
+    "id": 8161,
+    "progId": 11,
+    "progName": "CRECUST",
+    "recordName": "DLZDIB",
+    "iLevel": 2,
+    "PIC": "X(6)",
+    "definition": {
+      "startRow": 11,
+      "startColumn": 13,
+      "endRow": 11,
+      "endColumn": 39,
+      "path": "/bobz-understand/projects/BankofZ/Cobol Include/DIBSTAT.CPY"
+    }
+  }
+]
