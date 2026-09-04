@@ -1,8 +1,9 @@
 # AI That Speaks Mainframe: Accelerating Z Modernization with IBM Bob Premium Package for Z
 **Author:** Biao Hao (biaohao@us.ibm.com) | *Last updated: 2026-08-28*
 
-**Goal:** Show how IBM Bob Premium Package for Z (PPZ) accelerates understanding, analysis, and safe delivery of changes across a real multi-language mainframe application — and how it can be extended to fit any team's standards.
+> This demo is built on top of the [Bank of Z application](https://github.com/IBM/Bank-of-Z), forked in late July 2026 (commit 45454d4 as in the `base` branch). The enhancements are in branches with the prefix `bobz-demo`, such as `bobz-demo/email-added,` which includes code changes for adding an email to the customer record.
 
+**Goal:** Show how IBM Bob Premium Package for Z (PPZ) accelerates understanding, analysis, and safe delivery of changes across a real multi-language mainframe application — and how it can be extended to fit any team's standards.
 
 ---
 
@@ -311,6 +312,8 @@ This scenario is the most direct translation of AI value into a business metric:
 ## Step 4 — Add Email to Customer Info (End-to-End Change Delivery)
 
 This step is in four sub-parts, from analysis to plan to implementation to deployment. Show as much as time allows.
+
+The `bobz-demo/email-added` branch contains the complete set of code changes required to add an email address field to the customer record. Following the build and deploy instructions to deploy and run the code on a z/OS environment.
 
 ---
 
