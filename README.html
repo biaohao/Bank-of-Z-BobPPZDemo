@@ -229,6 +229,10 @@
     <li><a href="#agenda">Agenda</a></li>
     <li class="section-header"><a href="#">Core Steps</a></li>
     <li><a href="#step1">Step 1 — Introduction</a></li>
+    <li><a href="#step1a" style="padding-left:2rem">1a — What Is IBM Bob?</a></li>
+    <li><a href="#step1b" style="padding-left:2rem">1b — What Is Bob PPZ?</a></li>
+    <li><a href="#step1c" style="padding-left:2rem">1c — The App: Bank-of-Z</a></li>
+    <li><a href="#step1d" style="padding-left:2rem">1d — Build and Deploy on Z</a></li>
     <li><a href="#step2">Step 2 — Multi-Language Explanation</a></li>
     <li><a href="#step3">Step 3 — Audit Trail Analysis</a></li>
     <li><a href="#step4">Step 4 — Add Email (End-to-End)</a></li>
@@ -256,9 +260,10 @@
   <h1>AI That Speaks Mainframe: Accelerating Z Modernization with IBM Bob Premium Package for Z</h1>
   <div class="meta">
     <span><strong>Author:</strong> Biao Hao (biaohao@us.ibm.com)</span>
-    <span><strong>Last updated:</strong> 2026-08-28</span>
+    <span><strong>Last updated:</strong> 2026-09-11</span>
   </div>
-  <p style="margin-top:0.75rem;font-size:0.9rem;color:#525252;"><strong>Goal: </strong>Show how IBM Bob Premium Package for Z (PPZ) accelerates understanding, analysis, and safe delivery of changes across a real multi-language mainframe application — and how it can be extended to fit any team's standards.</p>
+  <p style="margin-top:0.75rem;font-size:0.9rem;color:#525252;">This demo is built on top of the <a href="https://github.com/IBM/Bank-of-Z" target="_blank">Bank of Z</a> application, forked in late July 2026 (commit <code>45454d4</code> as in the <code>base</code> branch). The enhancements are in branches with the prefix <code>bobz-demo</code>, such as <code>bobz-demo/email-added</code>, which includes code changes for adding an email to the customer record.</p>
+  <p style="margin-top:0.5rem;font-size:0.9rem;color:#525252;"><strong>Goal:</strong> Show how IBM Bob Premium Package for Z (PPZ) accelerates understanding, analysis, and safe delivery of changes across a real multi-language mainframe application — and how it can be extended to fit any team's standards.</p>
 </div>
 
 <!-- ══════════════════ AGENDA ══════════════════ -->
@@ -268,7 +273,7 @@
   <table class="agenda-table">
     <thead><tr><th>Step</th><th>Topic</th><th>Time</th><th>Key message</th></tr></thead>
     <tbody>
-      <tr><td>1</td><td>Introduction — Bob, PPZ, Bank-of-Z, Z Environment</td><td>5 min</td><td><em>Bob starts from the same frontier model as Claude Code — PPZ is what makes it useful on Z.</em></td></tr>
+      <tr><td>1</td><td>Introduction — Bob, PPZ, Bank-of-Z, Build and Deploy on Z</td><td>5 min</td><td><em>Bob starts from the same frontier model as Claude Code — PPZ is what makes it useful on Z.</em></td></tr>
       <tr><td>2</td><td>Multi-language flow explanation</td><td>10 min</td><td><em>Five files, five languages, one coherent answer — no copy-paste.</em></td></tr>
       <tr><td>3</td><td>Customer audit trail analysis</td><td>8 min</td><td><em>A compliance question answered in 60 seconds vs. a full day.</em></td></tr>
       <tr><td>4a</td><td>Add email — impact analysis</td><td>8 min</td><td><em>15 components. The hidden inline struct trap — caught before anyone wrote a line of code.</em></td></tr>
@@ -289,9 +294,9 @@
 <!-- ══════════════════ STEP 1 ══════════════════ -->
 <section id="step1">
   <h2><span class="step-badge">Step 1</span> Introduction: The Agent and the App</h2>
-  <div class="presenter-note"><strong>Presenter note:</strong> See <code>bobz-demo/1x-bob-and-ppz-overview.md</code> for the full product overview, comparison table, and talking points.</div>
+  <div class="presenter-note"><strong>Presenter note:</strong> See <a href="bobz-demo/1x-bob-and-ppz-overview.md"><code>bobz-demo/1x-bob-and-ppz-overview.md</code></a> for the full product overview, comparison table, and talking points.</div>
 
-  <h3>1a — What Is IBM Bob?</h3>
+  <h3 id="step1a">1a — What Is IBM Bob?</h3>
   <p>What you're looking at is <strong>IBM Bob</strong> — IBM's AI SDLC partner. It's available as <strong>Bob IDE</strong> (VS Code chat) and <strong>Bob Shell</strong> (terminal CLI). Bob combines <strong>intelligent multi-model orchestration</strong> with an agentic tool loop that reads files, queries codebases, runs commands, and reasons across multiple sources in a single turn. It is not a chatbot you paste snippets into.</p>
   <p><strong>Bob vs the competition — 30-second framing:</strong></p>
   <table>
@@ -306,7 +311,7 @@
   </table>
   <p>On general coding tasks, <strong>Bob</strong> is on par with Copilot and Claude Code — frontier models, agentic editing, customizable modes and skills. The question is what you build on top of that foundation — and that's where <strong>Bob Premium Package for Z</strong> comes in.</p>
 
-  <h3>1b — What Is Bob Premium Package for Z (PPZ)?</h3>
+  <h3 id="step1b">1b — What Is Bob Premium Package for Z (PPZ)?</h3>
   <p><strong>Bob Premium Package for Z</strong> — or Bob PPZ — adds the Z-specific capability layer that turns Bob from a general-purpose AI SDLC partner into a mainframe-aware AI engineer. It ships as extensions to Bob IDE and Bob Shell across four pillars: Workflows, Application Analysis (Z Understand), Code Capabilities, and Integrations.</p>
   <p><img src="bobz-demo/1x-bob4Z-architecture-SaaS.svg" alt="Bob Premium Package for Z — Solution Architecture" style="max-width:100%;border-radius:6px;border:1px solid #e0e0e0;margin:0.5rem 0;"><br><small>Source: <a href="https://www.ibm.com/docs/en/bobz/3.0.0?topic=overview-solution-architecture" target="_blank">IBM Docs — Bob PPZ 3.0 Solution Architecture</a></small></p>
   <p><strong>Components in the architecture diagram:</strong></p>
@@ -332,7 +337,7 @@
     <li>This is your rules, your workflows, your institutional knowledge — encoded once and applied consistently by AI. When a senior developer retires, their expertise doesn't walk out the door. It lives in a YAML file and a Markdown skill.</li>
   </ul>
 
-  <h3>1c — The App: Bank-of-Z</h3>
+  <h3 id="step1c">1c — The App: Bank-of-Z</h3>
   <p>The application we'll be using for the demo, Bank-of-Z, is a multi-language banking application running on IBM Z — it has CICS transactions, IMS, DB2, PL/I batch, z/OS Connect REST APIs, and a web UI.</p>
   <p><strong>Logical Architecture:</strong></p>
   <div class="mermaid">
@@ -403,6 +408,62 @@ graph TB
     <li>The <strong>build pipeline</strong> — DBB impact build triggers recompile of all copybook dependents; Wazi Deploy promotes load modules; ZCodeScan enforces standards before commit</li>
   </ul>
   <p>Every scenario you'll see today involves real code from this application — real cross-language tracing, real impact analysis, real code changes deployed on Z. Nothing is mocked or pre-computed.</p>
+
+  <h3 id="step1d">1d — Build and Deploy on Z</h3>
+  <p>Automatically provision a full application stack including DB2, CICS, IMS, z/OS Connect, and a Liberty frontend server, then build and deploy the application from the source.</p>
+  <ul>
+    <li>Application compilation, configuration, deployment procedures — using Bob to troubleshoot</li>
+    <li>Installation workflow: verify prerequisites → configure target environment → install tools → build → deploy → verify</li>
+  </ul>
+  <p><img src="bobz-demo/z-environment.png" alt="Bank of Z — Architecture and Environment Overview" style="max-width:100%;border-radius:6px;border:1px solid #e0e0e0;margin:0.5rem 0;"></p>
+
+  <p><strong>Deployment architecture — build pipeline:</strong></p>
+  <div class="mermaid">
+graph LR
+    classDef src   fill:#E8F4F8,stroke:#4A90A4,color:#000
+    classDef build fill:#1A1A1A,stroke:#1A1A1A,color:#FFF
+    classDef out   fill:#F0E6FF,stroke:#9B7EBF,color:#000
+
+    subgraph Sources["Application source repository"]
+        S1["COBOL / HLASM\nsource"]:::src
+        S2["Java source"]:::src
+        S3["React Carbon\nUI source"]:::src
+        S4["Application\nconfiguration"]:::src
+        S5["z/OS Connect\nAPI source"]:::src
+    end
+
+    subgraph Builds["Build"]
+        B1["DBB / zBuilder\nbuild"]:::build
+        B2["Yarn + Maven\nbuild"]:::build
+        B3["No-op"]:::build
+        B4["Gradle build"]:::build
+    end
+
+    subgraph Outputs["Built application components"]
+        O1["Load modules"]:::out
+        O2["DBRM"]:::out
+        O3["Java EE WAR\n(+ web UI)"]:::out
+        O4["Application\nconfiguration"]:::out
+        O5["z/OS Connect\nAPI artifacts"]:::out
+    end
+
+    S1 --> B1 --> O1
+    B1 --> O2
+    S2 --> B2 --> O3
+    S3 --> B2
+    S4 --> B3 --> O4
+    S5 --> B4 --> O5
+  </div>
+
+  <p><strong>CI/CD toolchains:</strong></p>
+  <table>
+    <thead><tr><th>Mode</th><th>Tools</th></tr></thead>
+    <tbody>
+      <tr><td>Traditional CI/CD (SDLC)</td><td>ADFz (File Manager, Fault Analyzer, IDz+), TAz, WCA4Z v2, open source (Python, Node), Zowe</td></tr>
+      <tr><td><strong>Agentic CI/CD (ADLC)</strong></td><td>All SDLC tools + IBM Bob + Premium Package for Z + TAz Integration + Pipeline Automation</td></tr>
+    </tbody>
+  </table>
+  <p><small>Source: <a href="https://ibm.github.io/Bank-of-Z/docs/architecture/build-and-deployment.html" target="_blank">Build and Deployment Architecture</a></small></p>
 </section>
 
 <hr>
@@ -410,7 +471,7 @@ graph TB
 <!-- ══════════════════ STEP 2 ══════════════════ -->
 <section id="step2">
   <h2><span class="step-badge">Step 2</span> Multi-Language Program Explanation</h2>
-  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <code>bobz-demo/2-multi-language-program-explanation.md</code> for the full pre-captured output.</div>
+  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <a href="bobz-demo/2-multi-language-program-explanation.md"><code>bobz-demo/2-multi-language-program-explanation.md</code></a> for the full pre-captured output.</div>
 
   <h3>Prompt</h3>
   <div class="prompt-box">Explain the complete end-to-end flow when a user creates a new customer in the Bank of Z web UI. Start from the JavaScript fetch call in api.js, trace through the z/OS Connect JSONata request mapping, into the CICS presentation program BNK1CCS.cbl, then CRECUST.cbl — including the asynchronous CICS child tasks it spawns to the five credit agency stubs, how it aggregates credit scores using CICS containers and FETCH ANY NOSUSPEND, and finally how it writes to DB2. Explain what happens at each layer if all five credit agency child tasks time out before returning.</div>
@@ -448,7 +509,7 @@ graph TB
 <!-- ══════════════════ STEP 3 ══════════════════ -->
 <section id="step3">
   <h2><span class="step-badge">Step 3</span> Customer Audit Trail Analysis</h2>
-  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <code>bobz-demo/3-customer-audit-trail-analysis.md</code> for the full pre-captured output.</div>
+  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <a href="bobz-demo/3-customer-audit-trail-analysis.md"><code>bobz-demo/3-customer-audit-trail-analysis.md</code></a> for the full pre-captured output.</div>
 
   <h3>Prompt</h3>
   <div class="prompt-box">Using the Z Understand project, find every COBOL program in Bank of Z that reads or writes the <code>CUSTOMER</code> DB2 table, and for each one tell me: which SQL operation it performs (SELECT, INSERT, UPDATE, DELETE), which paragraph contains that operation, and whether the program also writes to <code>PROCTRAN</code> as part of the same transaction. Then identify any program that reads from <code>CUSTOMER</code> but does not write an audit row to <code>PROCTRAN</code> — those are the gaps in the audit trail.</div>
@@ -490,7 +551,7 @@ graph TB
   <!-- 4a -->
   <section id="step4a" style="margin-top:1.5rem">
     <h3>4a — Impact Analysis</h3>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <code>bobz-demo/4a-add-email-impact-analysis.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <a href="bobz-demo/4a-add-email-impact-analysis.md"><code>bobz-demo/4a-add-email-impact-analysis.md</code></a> for the full pre-captured output.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">I want to add an email address field to the customer data model. The field should be optional, max 50 characters, stored in the CUSTOMER DB2 table as CUSTOMER_EMAIL CHAR(50). Also, place the email field right after phone number. Please do a full impact analysis: identify every file that needs to change, explain why, and flag any risks — especially around COMMAREA sizing and z/OS Connect provider files.</div>
     <h4>What Bob produces</h4>
@@ -512,7 +573,7 @@ graph TB
   <!-- 4b -->
   <section id="step4b" style="margin-top:1.5rem">
     <h3>4b — Implementation Plan</h3>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <code>bobz-demo/4b-add-email-implementation-plan.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. See <a href="bobz-demo/4b-add-email-implementation-plan.md"><code>bobz-demo/4b-add-email-implementation-plan.md</code></a> for the full pre-captured output.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">You are in Z Architect mode. Based on the impact analysis, create a detailed implementation plan for adding the CUSTOMER_EMAIL field. Organize it into workstreams. For each file change, show the exact edit — the before and after code. Include appendices with exact byte positions in COMMAREs and z/OS Connect provider file startPos values. Also cover rollback. Do not make any changes to any files — produce the plan document only.</div>
     <h4>What Bob produces</h4>
@@ -542,7 +603,7 @@ graph TB
   <!-- 4c -->
   <section id="step4c" style="margin-top:1.5rem">
     <h3>4c — Code Changes</h3>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. Open <code>bobz-demo/4c-add-email-implementation-summary.md</code> to walk through what was actually built.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. Open <a href="bobz-demo/4c-add-email-implementation-summary.md"><code>bobz-demo/4c-add-email-implementation-summary.md</code></a> to walk through what was actually built.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">Using the implementation plan, make all the code changes required to add the CUSTOMER_EMAIL field. Work through each workstream in order: COBOL copybooks first, then BMS maps, then COBOL programs, then z/OS Connect provider files and mapping YAMLs, then the OpenAPI schema, and finally the Web UI. For each file, show me what you changed and why. Flag any risks you encounter as you go — especially anything related to inline structs, COMMAREA byte alignment, or z/OS Connect descriptor files.</div>
     <h4>What Bob produces</h4>
@@ -572,7 +633,7 @@ graph TB
     <p><strong>1. AI that does the work, not just describes it</strong><br>
     Bob didn't generate a checklist for a human to follow. It opened each file, computed the byte offsets, wrote the COBOL, and applied every change across COBOL, BMS, z/OS Connect, and the Web UI. The developer reviewed and approved — but didn't need to manually compute anything.</p>
     <p><strong>2. Honesty builds trust</strong><br>
-    Bob introduced 7 bugs and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an <code>END-EXEC.</code> shifted to Area A; a silent CICS <code>LENGERR</code> from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. <strong>The implementation summary is a living record</strong> — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.</p>
+    Bob introduced 7 bugs (for a specific run with multiple minor changes of requirements) and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an <code>END-EXEC.</code> shifted to Area A; a silent CICS <code>LENGERR</code> from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. <strong>The implementation summary is a living record</strong> — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.</p>
     <p><strong>3. Cross-stack consistency</strong><br>
     The same AI that wrote the COBOL also updated the JSONata mapping, the OpenAPI schema, and the HTML form. No handoff, no translation error between layers.</p>
   </section>
@@ -606,7 +667,7 @@ graph TB
 <!-- ══════════════════ STEP 5 ══════════════════ -->
 <section id="step5">
   <h2><span class="step-badge scan">Step 5</span> ZCodeScan: Custom Rule Enforcement Before Commit</h2>
-  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. See <code>bobz-demo/5-zCodeScan-rule-review-before-commit.md</code> for the full pre-captured output.</div>
+  <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. See <a href="bobz-demo/5-zCodeScan-rule-review-before-commit.md"><code>bobz-demo/5-zCodeScan-rule-review-before-commit.md</code></a> for the full pre-captured output.</div>
 
   <h3>Prompt</h3>
   <div class="prompt-box">Review XFRFUN.cbl against the Bank of Z ZCodeScan rule set defined in zcodescan/zcodescan-rules.yaml. Identify every violation, state the rule ID and severity, explain what the violation is and where it occurs (paragraph name and approximate line), and suggest the minimal fix for each. Focus especially on: CICS HANDLE CONDITION usage, SELECT * in embedded SQL, 88-level names not prefixed TEST, missing END-IF or END-EVALUATE, inline PERFORM bodies over 30 lines, and SQLCODE checks after every EXEC SQL.</div>
@@ -714,7 +775,7 @@ graph TB
   <section id="a1" style="margin-top:1.5rem">
     <h3><span class="step-badge appendix">A1</span> PL/I Batch Program Analysis + Code Change</h3>
     <div class="best-used">📌 Best used: After Step 2 (multi-language explanation), or as a standalone PL/I deep-dive for audiences with batch/PL/I workloads</div>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. Open <code>src/base/batch/pli/BNKSTMT.pli</code> in the editor before running the prompt — this gives Bob direct access to the procedure bodies, local variable declarations, and exact print formatting logic. See <code>bobz-demo/a1-bnkstmt-pli-analysis.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. Open <code>src/base/batch/pli/BNKSTMT.pli</code> in the editor before running the prompt — this gives Bob direct access to the procedure bodies, local variable declarations, and exact print formatting logic. See <a href="bobz-demo/a1-bnkstmt-pli-analysis.md"><code>bobz-demo/a1-bnkstmt-pli-analysis.md</code></a> for the full pre-captured output.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">Explain the business logic of this bank statement generator and add a new column to the output for transaction category. Show me the changes to be made only.</div>
     <h4>What Bob produces</h4>
@@ -745,7 +806,7 @@ graph TB
   <section id="a2" style="margin-top:1.5rem">
     <h3><span class="step-badge appendix">A2</span> COBOL Funds Transfer Program: Logic + Failure Path Analysis</h3>
     <div class="best-used">📌 Best used: After Step 2 or as a standalone CICS deep-dive for audiences interested in transaction integrity and error handling</div>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. Open <code>src/base/cics/cobol/XFRFUN.cbl</code> in the editor before running the prompt — the file is 2,060 lines, and opening it lets Bob trace the exact <code>COMM-FAIL-CODE</code> values, locking-order branches, and abend handler. See <code>bobz-demo/a2-xfrfun-funds-transfer-analysis.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. Open <code>src/base/cics/cobol/XFRFUN.cbl</code> in the editor before running the prompt — the file is 2,060 lines, and opening it lets Bob trace the exact <code>COMM-FAIL-CODE</code> values, locking-order branches, and abend handler. See <a href="bobz-demo/a2-xfrfun-funds-transfer-analysis.md"><code>bobz-demo/a2-xfrfun-funds-transfer-analysis.md</code></a> for the full pre-captured output.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">Explain what this program does, including how it handles the case where the source account update succeeds but the target account update fails.</div>
     <h4>What Bob produces</h4>
@@ -774,7 +835,7 @@ graph TB
   <section id="a3" style="margin-top:1.5rem">
     <h3><span class="step-badge appendix">A3</span> IMS Database Analysis: IBGCUDAT Segments and CUSTOMER/CUSTACCS Relationship</h3>
     <div class="best-used">📌 Best used: For audiences with IMS workloads, or after Step 2 to demonstrate Bob's IMS fluency</div>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. No single file needs to be pre-opened — navigate to <code>src/base/ims/</code> in the explorer. Bob will read both the PSB and DBD assembly sources automatically. See <code>bobz-demo/a3-ims-ibgcudat-analysis.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Architect</strong> mode. No single file needs to be pre-opened — navigate to <code>src/base/ims/</code> in the explorer. Bob will read both the PSB and DBD assembly sources automatically. See <a href="bobz-demo/a3-ims-ibgcudat-analysis.md"><code>bobz-demo/a3-ims-ibgcudat-analysis.md</code></a> for the full pre-captured output.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">Show me all the IMS segments that IBGCUDAT accesses, and explain the parent-child relationship between CUSTOMER and CUSTACCS databases.</div>
     <h4>What Bob produces</h4>
@@ -804,7 +865,7 @@ graph TB
   <section id="a4" style="margin-top:1.5rem">
     <h3><span class="step-badge appendix">A4</span> CICS COBOL Refactor: CRECUST Async Credit Check</h3>
     <div class="best-used">📌 Best used: As a code-generation demo combining architectural thinking with precise mainframe implementation. Ideal for technical audiences who want to see real refactoring.</div>
-    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. Open <code>src/base/cics/cobol/CRECUST.cbl</code> in the editor before running the prompt. See <code>bobz-demo/a4-crecust-async-refactor.md</code> for the full pre-captured output.</div>
+    <div class="presenter-note"><strong>Presenter note:</strong> Switch to <strong>Z Code</strong> mode. Open <code>src/base/cics/cobol/CRECUST.cbl</code> in the editor before running the prompt. See <a href="bobz-demo/a4-crecust-async-refactor.md"><code>bobz-demo/a4-crecust-async-refactor.md</code></a> for the full pre-captured output.</div>
     <div class="presenter-note"><strong>Alternative:</strong> Instead of using the prompt below, you can invoke the Bob PPZ built-in workflow <strong>Refactor COBOL or PL/I program</strong> for this demo step. Start the workflow from the Bob chat panel and follow the guided steps.</div>
     <h4>Prompt</h4>
     <div class="prompt-box">CRECUST is calling 5 credit agency programs with a fixed 3-second wait. I want to refactor the code to isolate the credit check logic into a separate program so the implementation complexity is not in the CRECUST code, and I can easily switch to an API call in the future. Show me the changes to be made only.</div>
@@ -836,7 +897,19 @@ graph TB
 
 <!-- Footer -->
 <footer>
-  <p>Reference files: <code>bobz-demo/1x-bob-and-ppz-overview.md</code> · <code>2-multi-language-program-explanation.md</code> · <code>3-customer-audit-trail-analysis.md</code> · <code>4a-add-email-impact-analysis.md</code> · <code>4b-add-email-implementation-plan.md</code> · <code>4c-add-email-implementation-summary.md</code> · <code>5-zCodeScan-rule-review-before-commit.md</code> · <code>a1-bnkstmt-pli-analysis.md</code> · <code>a2-xfrfun-funds-transfer-analysis.md</code> · <code>a3-ims-ibgcudat-analysis.md</code> · <code>a4-crecust-async-refactor.md</code></p>
+  <p>Reference files:
+    <a href="bobz-demo/1x-bob-and-ppz-overview.md"><code>1x-bob-and-ppz-overview.md</code></a> ·
+    <a href="bobz-demo/2-multi-language-program-explanation.md"><code>2-multi-language-program-explanation.md</code></a> ·
+    <a href="bobz-demo/3-customer-audit-trail-analysis.md"><code>3-customer-audit-trail-analysis.md</code></a> ·
+    <a href="bobz-demo/4a-add-email-impact-analysis.md"><code>4a-add-email-impact-analysis.md</code></a> ·
+    <a href="bobz-demo/4b-add-email-implementation-plan.md"><code>4b-add-email-implementation-plan.md</code></a> ·
+    <a href="bobz-demo/4c-add-email-implementation-summary.md"><code>4c-add-email-implementation-summary.md</code></a> ·
+    <a href="bobz-demo/5-zCodeScan-rule-review-before-commit.md"><code>5-zCodeScan-rule-review-before-commit.md</code></a> ·
+    <a href="bobz-demo/a1-bnkstmt-pli-analysis.md"><code>a1-bnkstmt-pli-analysis.md</code></a> ·
+    <a href="bobz-demo/a2-xfrfun-funds-transfer-analysis.md"><code>a2-xfrfun-funds-transfer-analysis.md</code></a> ·
+    <a href="bobz-demo/a3-ims-ibgcudat-analysis.md"><code>a3-ims-ibgcudat-analysis.md</code></a> ·
+    <a href="bobz-demo/a4-crecust-async-refactor.md"><code>a4-crecust-async-refactor.md</code></a>
+  </p>
 </footer>
 
 </main>

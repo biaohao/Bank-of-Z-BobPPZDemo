@@ -33,7 +33,7 @@
 
 ## Step 1 — Introduction: The Agent and the App
 
-> **Presenter note:** See `bobz-demo/1x-bob-and-ppz-overview.md` for the full product overview, comparison table, and talking points.
+> **Presenter note:** See [`bobz-demo/1x-bob-and-ppz-overview.md`](bobz-demo/1x-bob-and-ppz-overview.md) for the full product overview, comparison table, and talking points.
 
 ---
 
@@ -208,7 +208,7 @@ graph TB
 ```
 
 
-For the full program-level detail, open `bobz-demo/1x-bank-of-z-architecture.md` — **Detailed View** section.
+For the full program-level detail, open [`bobz-demo/1x-bank-of-z-architecture.md`](bobz-demo/1x-bank-of-z-architecture.md) — **Detailed View** section.
 
 **Key points in the architecture diagram:**
 
@@ -286,7 +286,7 @@ Source: [Build and Deployment Architecture](https://ibm.github.io/Bank-of-Z/docs
 
 ## Step 2 — Multi-Language Program Explanation
 
-> **Presenter note:** Switch to **Z Architect** mode. See `bobz-demo/2-multi-language-program-explanation.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. See [`bobz-demo/2-multi-language-program-explanation.md`](bobz-demo/2-multi-language-program-explanation.md) for the full pre-captured output.
 
 ### Prompt
 
@@ -328,7 +328,7 @@ Bob is configured to never speculate about code it has not read directly. Every 
 
 ## Step 3 — Customer Audit Trail Analysis
 
-> **Presenter note:** Switch to **Z Architect** mode. See `bobz-demo/3-customer-audit-trail-analysis.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. See [`bobz-demo/3-customer-audit-trail-analysis.md`](bobz-demo/3-customer-audit-trail-analysis.md) for the full pre-captured output.
 
 ### Prompt
 
@@ -377,7 +377,7 @@ The `bobz-demo/email-added` branch contains the complete set of code changes req
 
 ### 4a — Impact Analysis
 
-> **Presenter note:** Switch to **Z Architect** mode. See `bobz-demo/4a-add-email-impact-analysis.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. See [`bobz-demo/4a-add-email-impact-analysis.md`](bobz-demo/4a-add-email-impact-analysis.md) for the full pre-captured output.
 
 #### Prompt
 
@@ -407,7 +407,7 @@ The impact analysis doesn't just say "these files change." It says *in what orde
 
 ### 4b — Implementation Plan
 
-> **Presenter note:** Switch to **Z Architect** mode. See `bobz-demo/4b-add-email-implementation-plan.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. See [`bobz-demo/4b-add-email-implementation-plan.md`](bobz-demo/4b-add-email-implementation-plan.md) for the full pre-captured output.
 
 #### Prompt
 
@@ -446,7 +446,7 @@ The plan includes a rollback matrix: what to do if DDL is deployed but programs 
 
 ### 4c — Code Changes
 
-> **Presenter note:** Switch to **Z Code** mode. Open `bobz-demo/4c-add-email-implementation-summary.md` to walk through what was actually built.
+> **Presenter note:** Switch to **Z Code** mode. Open [`bobz-demo/4c-add-email-implementation-summary.md`](bobz-demo/4c-add-email-implementation-summary.md) to walk through what was actually built.
 
 #### Prompt
 
@@ -465,10 +465,10 @@ Bob makes all the code changes across 30+ files — every layer of the stack, un
 - Adds JSONata null-guard mappings in all four request/response YAMLs
 - Adds the `email` field to three OpenAPI schemas and three Web UI files
 
-Bob is not perfect. The implementation summary (`bobz-demo/4c-add-email-implementation-summary.md`) covers the full change record — including 7 bugs Bob introduced and then caught and fixed:
+Bob is not perfect. The implementation summary ([`bobz-demo/4c-add-email-implementation-summary.md`](bobz-demo/4c-add-email-implementation-summary.md)) covers the full change record — including 7 bugs Bob introduced and then caught and fixed:
 
 - 15 commits across 30+ files
-- 7 self-introduced bugs, caught at compile, deploy, and runtime:
+- 7 self-introduced bugs (for a specific run with multiple minor changes of requirements), caught at compile, deploy, and runtime:
   - **Fix 2** *(caught at compile)*: `END-EXEC.` shifted to Area A in `CUSTDB2.cpy` — RC=8 compile failures in 4 programs. One indentation character.
   - **Fix 6** *(caught at runtime — critical)*: `WS-CHILD-DATA` in `CRECUST.cbl` is an inline struct with no COPY. When `CUSTOMER.cpy` was updated, `WS-CHILD-DATA` didn't inherit the email field. Result: CICS `GET CONTAINER` returned `LENGERR` → `COMM-FAIL-CODE = 'E'` → HTTP 400. Invisible until runtime testing.
   - **Fix 7** *(caught at runtime — critical)*: Email field byte position was placed at end-of-COMMAREA instead of after the phone field — a 50-byte misalignment that cascaded through all z/OS Connect `.dai` files. Only visible when live data came back garbled.
@@ -479,7 +479,7 @@ Bob is not perfect. The implementation summary (`bobz-demo/4c-add-email-implemen
 Bob didn't generate a checklist for a human to follow. It opened each file, computed the byte offsets, wrote the COBOL, and applied every change across COBOL, BMS, z/OS Connect, and the Web UI. The developer reviewed and approved — but didn't need to manually compute anything.
 
 **2. Honesty builds trust**
-Bob introduced 7 bugs and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an `END-EXEC.` shifted to Area A; a silent CICS `LENGERR` from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. **The implementation summary is a living record** — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.
+Bob introduced several bugs and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an `END-EXEC.` shifted to Area A; a silent CICS `LENGERR` from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. **The implementation summary is a living record** — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.
 
 **3. Cross-stack consistency**
 The same AI that wrote the COBOL also updated the JSONata mapping, the OpenAPI schema, and the HTML form. No handoff, no translation error between layers.
@@ -499,7 +499,7 @@ Pull the changes to the Z environment, run a complete DBB build, package the out
    ```
 **DBB** knows which programs include `CUSTOMER.cpy` and recompiles them all. **Wazi Deploy** promotes load modules to CICS.
 
-Open the **Bank-of-Z** [Web UI](http://9.114.15.67:9081/admin.html) in a browser:
+Open the **Bank-of-Z** [Web UI](http://9.114.15.67:9081/admin.html) (inside a firewall - special VPN access required) in a browser:
    - Navigate to **Create Customer** — the email field is now present in the form
    - Create a new customer with an email address, submit
    - Navigate to **Customer Details** for that customer — email is displayed and editable
@@ -523,7 +523,7 @@ This email field didn't exist in the codebase this morning. An AI agent reasoned
 
 ## Step 5 — ZCodeScan: Custom Rule Enforcement Before Commit
 
-> **Presenter note:** Switch to **Z Code** mode. See `bobz-demo/5-zCodeScan-rule-review-before-commit.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Code** mode. See [`bobz-demo/5-zCodeScan-rule-review-before-commit.md`](bobz-demo/5-zCodeScan-rule-review-before-commit.md) for the full pre-captured output.
 
 ### Prompt
 
@@ -652,7 +652,7 @@ These scenarios are **not part of the core flow** but are ready to use for exten
 
 **Best used:** After Step 2 (multi-language explanation), or as a standalone PL/I deep-dive for audiences with batch/PL/I workloads
 
-> **Presenter note:** Switch to **Z Architect** mode. Open `src/base/batch/pli/BNKSTMT.pli` in the editor before running the prompt — this gives Bob direct access to the procedure bodies, local variable declarations, and exact print formatting logic. See `bobz-demo/a1-bnkstmt-pli-analysis.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. Open `src/base/batch/pli/BNKSTMT.pli` in the editor before running the prompt — this gives Bob direct access to the procedure bodies, local variable declarations, and exact print formatting logic. See [`bobz-demo/a1-bnkstmt-pli-analysis.md`](bobz-demo/a1-bnkstmt-pli-analysis.md) for the full pre-captured output.
 
 #### Prompt
 
@@ -700,7 +700,7 @@ Bob explicitly stated: *"No DB2 schema change, no cursor change, no host variabl
 
 **Best used:** After Step 2 (multi-language explanation) or as a standalone CICS deep-dive for audiences interested in transaction integrity and error handling
 
-> **Presenter note:** Switch to **Z Architect** mode. Open `src/base/cics/cobol/XFRFUN.cbl` in the editor before running the prompt — the file is 2,060 lines, and opening it lets Bob trace the exact `COMM-FAIL-CODE` values, locking-order branches, and abend handler. See `bobz-demo/a2-xfrfun-funds-transfer-analysis.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. Open `src/base/cics/cobol/XFRFUN.cbl` in the editor before running the prompt — the file is 2,060 lines, and opening it lets Bob trace the exact `COMM-FAIL-CODE` values, locking-order branches, and abend handler. See [`bobz-demo/a2-xfrfun-funds-transfer-analysis.md`](bobz-demo/a2-xfrfun-funds-transfer-analysis.md) for the full pre-captured output.
 
 #### Prompt
 
@@ -758,7 +758,7 @@ The prompt only asked about the account update partial failure. Bob went further
 
 **Best used:** For audiences with IMS workloads, or after Step 2 to demonstrate that Bob's cross-language reasoning extends to IMS hierarchical databases — not just CICS/DB2
 
-> **Presenter note:** Switch to **Z Architect** mode. No single file needs to be pre-opened — navigate to `src/base/ims/` in the explorer. Bob will read both the PSB and DBD assembly sources automatically. See `bobz-demo/a3-ims-ibgcudat-analysis.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Architect** mode. No single file needs to be pre-opened — navigate to `src/base/ims/` in the explorer. Bob will read both the PSB and DBD assembly sources automatically. See [`bobz-demo/a3-ims-ibgcudat-analysis.md`](bobz-demo/a3-ims-ibgcudat-analysis.md) for the full pre-captured output.
 
 #### Prompt
 
@@ -814,7 +814,7 @@ The prompt was about one program and two databases. Bob delivered a 9-database �
 
 **Best used:** As a code-generation demo combining architectural thinking with precise mainframe implementation. Shows how Bob isolates complexity, designs a clean interface, and produces ready-to-apply code. Ideal for technical audiences who want to see real refactoring — not just explanation.
 
-> **Presenter note:** Switch to **Z Code** mode. Open `src/base/cics/cobol/CRECUST.cbl` in the editor before running the prompt. See `bobz-demo/a4-crecust-async-refactor.md` for the full pre-captured output.
+> **Presenter note:** Switch to **Z Code** mode. Open `src/base/cics/cobol/CRECUST.cbl` in the editor before running the prompt. See [`bobz-demo/a4-crecust-async-refactor.md`](bobz-demo/a4-crecust-async-refactor.md) for the full pre-captured output.
 
 > **Alternative:** Instead of using the prompt below, you can invoke the Bob PPZ built-in workflow **Refactor COBOL or PL/I program** for this demo step. Start the workflow from the Bob chat panel and follow the guided steps.
 
