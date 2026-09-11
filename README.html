@@ -621,7 +621,7 @@ graph LR
     <p>Bob is not perfect. The implementation summary covers the full change record — including 7 bugs Bob introduced and then caught and fixed:</p>
     <ul>
       <li>15 commits across 30+ files</li>
-      <li>7 self-introduced bugs, caught at compile, deploy, and runtime:
+      <li>7 self-introduced bugs (for a specific run with multiple minor changes of requirements), caught at compile, deploy, and runtime:
         <ul style="margin-top:0.3rem">
           <li><span class="fix-label">Fix 2</span> <span class="fix-stage">(caught at compile)</span>: <code>END-EXEC.</code> shifted to Area A in <code>CUSTDB2.cpy</code> — RC=8 compile failures in 4 programs. One indentation character.</li>
           <li><span class="fix-label">Fix 6</span> <span class="fix-stage">(caught at runtime — critical)</span>: <code>WS-CHILD-DATA</code> in <code>CRECUST.cbl</code> is an inline struct with no COPY. When <code>CUSTOMER.cpy</code> was updated, <code>WS-CHILD-DATA</code> didn't inherit the email field. Result: CICS <code>GET CONTAINER</code> returned <code>LENGERR</code> → <code>COMM-FAIL-CODE = 'E'</code> → HTTP 400. Invisible until runtime testing.</li>
@@ -633,7 +633,7 @@ graph LR
     <p><strong>1. AI that does the work, not just describes it</strong><br>
     Bob didn't generate a checklist for a human to follow. It opened each file, computed the byte offsets, wrote the COBOL, and applied every change across COBOL, BMS, z/OS Connect, and the Web UI. The developer reviewed and approved — but didn't need to manually compute anything.</p>
     <p><strong>2. Honesty builds trust</strong><br>
-    Bob introduced 7 bugs (for a specific run with multiple minor changes of requirements) and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an <code>END-EXEC.</code> shifted to Area A; a silent CICS <code>LENGERR</code> from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. <strong>The implementation summary is a living record</strong> — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.</p>
+    Bob introduced 7 bugs and fixed all of them — some at compile, some after deploy, some only visible at runtime. These are exactly the defects that escape into production in traditional change delivery: an <code>END-EXEC.</code> shifted to Area A; a silent CICS <code>LENGERR</code> from an unsynced inline struct; a 50-byte byte-position misalignment only visible when live data came back garbled. Bob is not flawless, but it finds and fixes its own mistakes. <strong>The implementation summary is a living record</strong> — a realistic picture of AI-assisted mainframe change delivery, not a sanitised success story.</p>
     <p><strong>3. Cross-stack consistency</strong><br>
     The same AI that wrote the COBOL also updated the JSONata mapping, the OpenAPI schema, and the HTML form. No handoff, no translation error between layers.</p>
   </section>
