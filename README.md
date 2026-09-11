@@ -1,7 +1,7 @@
 # AI That Speaks Mainframe: Accelerating Z Modernization with IBM Bob Premium Package for Z
-**Author:** Biao Hao (biaohao@us.ibm.com) | *Last updated: 2026-08-28*
+**Author:** Biao Hao (biaohao@us.ibm.com) | *Last updated: 2026-09-11*
 
-> This demo is built on top of the [Bank of Z application](https://github.com/IBM/Bank-of-Z), forked in late July 2026 (commit 45454d4 as in the `base` branch). The enhancements are in branches with the prefix `bobz-demo`, such as `bobz-demo/email-added,` which includes code changes for adding an email to the customer record.
+> This demo is built on top of the [Bank of Z](https://github.com/IBM/Bank-of-Z) application, forked in late July 2026 (commit 45454d4 as in the `base` branch). The enhancements are in branches with the prefix `bobz-demo`, such as `bobz-demo/email-added,` which includes code changes for adding an email to the customer record.
 
 **Goal:** Show how IBM Bob Premium Package for Z (PPZ) accelerates understanding, analysis, and safe delivery of changes across a real multi-language mainframe application — and how it can be extended to fit any team's standards.
 
@@ -12,7 +12,7 @@
 
 | Step | Topic | Time | Key message |
 |---|---|---|---|
-| [1](#step-1--introduction-the-agent-and-the-app) | Introduction — Bob, PPZ, Bank-of-Z, Z Environment | 5 min | *Bob starts from the same frontier model as Claude Code — PPZ is what makes it useful on Z.* |
+| [1](#step-1--introduction-the-agent-and-the-app) | Introduction — Bob, PPZ, Bank-of-Z, Build and Deploy on Z | 5 min | *Bob starts from the same frontier model as Claude Code — PPZ is what makes it useful on Z.* |
 | [2](#step-2--multi-language-program-explanation) | Multi-language flow explanation | 10 min | *Five files, five languages, one coherent answer — no copy-paste.* |
 | [3](#step-3--customer-audit-trail-analysis) | Customer audit trail analysis | 8 min | *A compliance question answered in 60 seconds vs. a full day.* |
 | [4a](#4a--impact-analysis) | Add email — impact analysis | 8 min | *15 components. The hidden inline struct trap — caught before anyone wrote a line of code.* |
@@ -226,6 +226,64 @@ Every scenario you'll see today involves real code from this application — rea
 
 ---
 
+### 1d — Build and Deploy on Z
+
+Automatically provision a full application stack including DB2, CICS, IMS, z/OS Connect, and a Liberty frontend server, then build and deploy the application from the source.
+- Application compilation, configuration, deployment procedures - using Bob to troubleshoot
+- Installation workflow: verify prerequisites → configure target environment → install tools → build → deploy → verify
+
+**Deployment architecture — build pipeline:**
+
+```mermaid
+graph LR
+    classDef src   fill:#E8F4F8,stroke:#4A90A4,color:#000
+    classDef build fill:#1A1A1A,stroke:#1A1A1A,color:#FFF
+    classDef out   fill:#F0E6FF,stroke:#9B7EBF,color:#000
+
+    subgraph Sources["Application source repository"]
+        S1["COBOL / HLASM\nsource"]:::src
+        S2["Java source"]:::src
+        S3["React Carbon\nUI source"]:::src
+        S4["Application\nconfiguration"]:::src
+        S5["z/OS Connect\nAPI source"]:::src
+    end
+
+    subgraph Builds["Build"]
+        B1["DBB / zBuilder\nbuild"]:::build
+        B2["Yarn + Maven\nbuild"]:::build
+        B3["No-op"]:::build
+        B4["Gradle build"]:::build
+    end
+
+    subgraph Outputs["Built application components"]
+        O1["Load modules"]:::out
+        O2["DBRM"]:::out
+        O3["Java EE WAR\n(+ web UI)"]:::out
+        O4["Application\nconfiguration"]:::out
+        O5["z/OS Connect\nAPI artifacts"]:::out
+    end
+
+    S1 --> B1 --> O1
+    B1 --> O2
+    S2 --> B2 --> O3
+    S3 --> B2
+    S4 --> B3 --> O4
+    S5 --> B4 --> O5
+```
+
+**CI/CD toolchains:**
+
+| Mode | Tools |
+|---|---|
+| Traditional CI/CD (SDLC) | ADFz (File Manager, Fault Analyzer, IDz+), TAz, WCA4Z v2, open source (Python, Node), Zowe |
+| **Agentic CI/CD (ADLC)** | All SDLC tools + IBM Bob + Premium Package for Z + TAz Integration + Pipeline Automation |
+
+Source: [Build and Deployment Architecture](https://ibm.github.io/Bank-of-Z/docs/architecture/build-and-deployment.html)
+
+[↑ Agenda](#agenda)
+
+---
+
 ## Step 2 — Multi-Language Program Explanation
 
 > **Presenter note:** Switch to **Z Architect** mode. See `bobz-demo/2-multi-language-program-explanation.md` for the full pre-captured output.
@@ -323,7 +381,7 @@ The `bobz-demo/email-added` branch contains the complete set of code changes req
 
 #### Prompt
 
-> I want to add an email address field to the customer data model. The field should be optional, max 50 characters, stored in the CUSTOMER DB2 table as CUSTOMER_EMAIL CHAR(50). Also, place the email field right after phone number. Please do a full impact analysis: identify every file that needs to change, explain why, and flag any risks — especially around COMMAREA sizing and z/OS Connect provider files. Use the Z Understand project.
+> I want to add an email address field to the customer data model. The field should be optional, max 50 characters, stored in the CUSTOMER DB2 table as CUSTOMER_EMAIL CHAR(50). Also, place the email field right after phone number. Please do a full impact analysis: identify every file that needs to change, explain why, and flag any risks — especially around COMMAREA sizing and z/OS Connect provider files. Complete the end-to-end analysis including the frontend web UI.
 
 #### What Bob produces
 
@@ -442,9 +500,9 @@ Pull the changes to the Z environment, run a complete DBB build, package the out
 **DBB** knows which programs include `CUSTOMER.cpy` and recompiles them all. **Wazi Deploy** promotes load modules to CICS.
 
 Open the **Bank-of-Z** [Web UI](http://9.114.15.67:9081/admin.html) in a browser:
-   - Navigate to [**Create Customer**](http://9.114.15.67:9081/customer-create.html) — the email field is now present in the form
+   - Navigate to **Create Customer** — the email field is now present in the form
    - Create a new customer with an email address, submit
-   - Navigate to [**Customer Details**](http://9.114.15.67:9081/customer-details.html) for that customer — email is displayed and editable
+   - Navigate to **Customer Details** for that customer — email is displayed and editable
 
 ![Customer Details](bobz-demo/4d-add-email-deployment.png)
 

@@ -32,3 +32,6 @@ scripts/update-frontend-file-zos.sh
 
 # Bob Z Extension - Local data dictionary
 DD.json
+
+# Bob Z Extension - Local settings and generated files
+.bobz/
