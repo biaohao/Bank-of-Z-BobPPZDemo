@@ -3,6 +3,7 @@
 /.bob/*.json
 /.setup/.env
 .env
+
 provisioning/
 /.pydevproject
 build.log
@@ -32,3 +33,4 @@ scripts/update-frontend-file-zos.sh
 
 # Bob Z Extension - Local data dictionary
 DD.json
+.bobz

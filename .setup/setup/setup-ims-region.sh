@@ -21,6 +21,7 @@ exec > >(while IFS= read -r line; do
     [[ -z "$line" ]] && continue
     printf "${CYAN}[ZCONFIG-IMS]${NC} %s\n" "${line}" 2>/dev/null || true
 done) 2>&1
+trap 'exec >&- 2>&-; wait' EXIT
 
 # =========================
 # Environment
@@ -33,6 +34,7 @@ export BOZ_IMS_HLQ="${IMS_APP_HLQ}"
 # =========================
 # Stop IBM BOZ regions
 # =========================
+print_info "Stopping IMS ${APP_BASE_NAME} regions .."
 set +e
 # Delete stale stop members so jsub fails silently rather than executing
 # outdated JCL that may reference deleted datasets. Members are rebuilt
@@ -108,6 +110,7 @@ zconfig apply -e ims_user="${IMS_USER}" \
               -e ims_java_home="${IMS_JAVA_HOME}" \
               -e db2_ssid="${DB2_SSID}" \
               -e debug_hlq="${DEBUG_HLQ}" \
+              -e debug_stc_user="${DEBUG_STC_USER}" \
               -e ims_target_user="${IMS_USER}" \
               -e ims_ixvolser="${IMS_IXVOLSER}" \
               -e ims_irlm_enablement="${IMS_IRLM_ENABLEMENT:-false}" \
