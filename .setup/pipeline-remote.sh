@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################
-# Remoyes Pipeline Orchestrator for Bank of Z
+# Remote Pipeline Orchestrator for Bank of Z
 # This script runs on the remote z/OS USS system
 # Usage: bash pipeline-remote.sh
 #########################################################
@@ -31,15 +31,10 @@ stage_execute_pipeline() {
     print_info "  - Deploy build"
     echo ""
     
-    if [[ "$EXECUTION_MODE" != "grub" ]]; then
-        cd $SCRIPTS_DIR
-        git pull
-    fi
-    
     # Execute the pipeline script on remote
     set -o pipefail
     if [[ "$EXECUTION_MODE" != "grub" ]]; then
-        bash ${SCRIPTS_DIR}/pipeline-common.sh scan-build-and-deploy&
+        ${SCRIPTS_DIR}/pipeline-common.sh scan-build-and-deploy&
         PID=$!
         # Wait for deployment to complete (ZOAU/ZOWE ISSUE)
         wait "$PID"

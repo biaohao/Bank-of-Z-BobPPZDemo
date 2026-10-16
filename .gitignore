@@ -3,6 +3,7 @@
 /.bob/*.json
 /.setup/.env
 .env
+
 provisioning/
 /.pydevproject
 build.log
@@ -38,3 +39,4 @@ DD.json
 
 # Bob Z Extension - Demo outputs
 bobz/
+.bobz
