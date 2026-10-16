@@ -450,7 +450,7 @@ The plan includes a rollback matrix: what to do if DDL is deployed but programs 
 
 #### Prompt
 
-> Using the implementation plan, make all the code changes required to add the CUSTOMER_EMAIL field. Work through each workstream in order: COBOL copybooks first, then BMS maps, then COBOL programs, then z/OS Connect provider files and mapping YAMLs, then the OpenAPI schema, and finally the Web UI. For each file, show me what you changed and why. Flag any risks you encounter as you go — especially anything related to inline structs, COMMAREA byte alignment, or z/OS Connect descriptor files.
+> Using the implementation plan, make all the code changes required to add the CUSTOMER_EMAIL field. Work through each workstream in order: COBOL copybooks first, then COBOL programs, then z/OS Connect provider files and mapping YAMLs, then the OpenAPI schema, and finally the Web UI. For each file, show me what you changed and why. Flag any risks you encounter as you go — especially anything related to inline structs, COMMAREA byte alignment, or z/OS Connect descriptor files.
 
 #### What Bob produces
 

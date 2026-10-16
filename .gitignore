@@ -35,3 +35,6 @@ DD.json
 
 # Bob Z Extension - Local settings and generated files
 .bobz/
+
+# Bob Z Extension - Demo outputs
+bobz/

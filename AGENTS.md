@@ -119,7 +119,7 @@ Full documentation is a Jekyll site at `docs/` published to https://ibm.github.i
 | BNK1TFN.cbl | `src/base/cics/cobol/` | CICS transfer function screen |
 | BNK1DCS.cbl | `src/base/cics/cobol/` | CICS delete customer screen |
 | CREACC.cbl | `src/base/cics/cobol/` | Creates account — uses DB2 ACCOUNT table and PROCTRAN; uses Named Counter for account numbering |
-| CRECUST.cbl | `src/base/cics/cobol/` | Creates customer |
+| CRECUST.cbl | `src/base/cics/cobol/` | Creates customer — uses Named Counter (CICS ENQ/DEQ) for sequential customer numbering; writes PROCTRAN type `'OCC'` on success |
 | DELACC.cbl, DELCUS.cbl | `src/base/cics/cobol/` | Delete account / customer |
 | UPDACC.cbl, UPDCUST.cbl | `src/base/cics/cobol/` | Update account / customer |
 | INQACC.cbl, INQACCS.cbl, INQACCCU.cbl | `src/base/cics/cobol/` | Account inquiry programs |
@@ -129,10 +129,10 @@ Full documentation is a Jekyll site at `docs/` published to https://ibm.github.i
 | XFRFUN.cbl | `src/base/cics/cobol/` | Transfer function |
 | GETSCODE.cbl, GETCOMPY.cbl | `src/base/cics/cobol/` | Utility: get sort code / company name |
 | CRDTAGY1-5.cbl | `src/base/cics/cobol/` | Credit agency simulation programs (1–5) |
-| BANKDATA.cbl | `src/base/cics/cobol/` | Bank reference data |
+| BANKDATA.cbl | `src/base/cics/cobol/` | **Data load / re-initialisation utility only** — not a transactional program; bulk-inserts and bulk-deletes CUSTOMER and ACCOUNT without audit rows |
 | IBTRAN.cbl | `src/base/ims/cobol/` | IMS Java bridge program (COBOL → 64-bit Java JNI); special compile/link parms required |
 | IBLOGIN1.cbl, IBLOGOUT.cbl | `src/base/ims/cobol/` | IMS login / logout transactions |
-| IBGCUDAT.cbl, IBSCUDAT.cbl | `src/base/ims/cobol/` | IMS get/set customer data |
+| IBGCUDAT.cbl, IBSCUDAT.cbl | `src/base/ims/cobol/` | IMS get/set customer data — IBSCUDAT uses IMS DL/I (GHU+REPL), **not** DB2 SQL |
 | IBACSUM.cbl | `src/base/ims/cobol/` | IMS account summary |
 | LOADxxxx.cbl | `src/base/ims/cobol/` | IMS data load programs (LOADACCT, LOADCUSA, LOADCUST, LOADHIST, LOADTSTA) |
 | IBLOGIN.pli | `src/base/ims/pli/` | IMS PL/I login program; replaces IBLOGIN1.cbl in IMS path |
@@ -145,6 +145,54 @@ Full documentation is a Jekyll site at `docs/` published to https://ibm.github.i
 3. When analyzing any program, cross-reference its mapping entry for business context.
 4. When adding new programs, add an entry to this table and create or link documentation.
 5. API changes to `src/api/src/main/api/openapi.yaml` require regeneration of `src/api/src/main/zosAssets/` provider `.cpy` files via Gradle.
+
+## DB2 Table Schema (Key Facts for Code Generation)
+
+CUSTOMER (`src/base/cics/copy/CUSTDB2.cpy`): `CUSTOMER_DATE_OF_BIRTH`, `CUSTOMER_CREATED_DATE`, `CUSTOMER_CS_REVIEW_DATE` are stored as `INTEGER` (YYYYMMDD), not `DATE`. Programs compute these with `COMPUTE HV-x = (YYYY * 10000) + (MM * 100) + DD`.
+
+CONTROL (`src/base/cics/copy/CONTDB2.cpy`): Schema is `STTESTER.CONTROL` — note the schema qualifier. Used for last-customer/last-account sequence numbers; key format is `'BANKZCUST' || SORTCODE || '  '` (padded to 17 chars).
+
+## PROCTRAN Audit Trail Pattern
+
+Every mutating CICS transaction (create/delete account or customer, debit/credit, transfer) **must** write a row to PROCTRAN DB2 table immediately after the main DML succeeds. Use the pattern in `CRECUST.cbl` (`WRITE-PROCTRAN-DB2` section) or `DELCUS.cbl` as canonical reference.
+
+**Known intentional exceptions** — no PROCTRAN write:
+- `UPDCUST.cbl` — documented in source header as deliberate (limited fields change)
+- `IBSCUDAT.cbl` — IMS path customer update (uses DL/I REPL, no PROCTRAN integration)
+- `BANKDATA.cbl` — data-load utility, not a business transaction
+
+Valid `PROCTRAN_TYPE` codes (defined in `src/base/cics/copy/PROCTRAN.cpy`):
+`CHA`, `CHF`, `CHI`, `CHO`, `CRE`, `DEB`, `ICA`, `ICC`, `IDA`, `IDC`, `OCA`, `OCC`, `ODA`, `ODC`, `OCS`, `PCR`, `PDR`, `TFR`.
+
+## Key Copybooks (non-obvious)
+
+| Copybook | Purpose |
+|---|---|
+| `SORTCODE.cpy` | Defines `77 SORTCODE PIC 9(6) VALUE 987654` — hardcoded default sort code |
+| `CUSTDB2.cpy` | `EXEC SQL DECLARE CUSTOMER TABLE` — DB2 table declaration |
+| `ACCDB2.cpy` | `EXEC SQL DECLARE ACCOUNT TABLE` |
+| `PROCDB2.cpy` | `EXEC SQL DECLARE PROCTRAN TABLE` |
+| `PROCISRT.cpy` | COMMAREA layout for calling a PROCTRAN insert helper — used only for IMS path |
+| `PROCTRAN.cpy` | VSAM/working-storage layout with all 88-level type codes |
+| `ABNDINFO.cpy` | Standard abend information record — all CICS programs COPY this in LOCAL-STORAGE |
+
+## IMS Java JMP Bridge
+
+`src/base/ims/java/` is a standalone Gradle project (Java 21). JAR name is `nazare-ims-jmp`. Package `com.ibm.db2:jcc:12.1.4.0`, `com.ibm.ims:udb:15.166`, `com.ibm.jzos:ibmjzos:2.4.11.3`. IBTRAN.cbl calls into this JAR via JNI using the 31→64-bit bridge (`igzxjni2.x` + `libjvm31.x`). Do not change the entry point `ENTRY IBTRAN(R)` in the link-edit stream.
+
+## Customer Numbering (CICS Path)
+
+`CRECUST.cbl` uses CICS ENQ/DEQ on a Named Counter (`NCS-CUST-NO-NAME` = `'BNKCUSTS'` + sortcode + `'  '`) to serialise customer number generation. The counter value is read from the CONTROL DB2 table in `GET-LAST-CUSTOMER-DB2` and updated in `UPD-NCS`. **Never directly INSERT a customer row without going through this counter logic** — it will create duplicate or out-of-sequence customer numbers.
+
+## Data Dictionary Location
+
+The data dictionary for this project is located at:
+
+- `/Users/biaohao/Projects/Bank-of-Z/bobz/DD.json`
+
+This file contains variable descriptions and business context for COBOL or PL/I programs.
+Always reference this file when analyzing or modifying COBOL or PL/I code.
+
 
 ## Pre-commit Hook
 
