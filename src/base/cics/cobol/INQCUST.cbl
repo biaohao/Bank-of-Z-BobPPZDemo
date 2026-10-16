@@ -488,7 +488,7 @@
                     ':' DELIMITED BY SIZE,
                      WS-TIME-NOW-GRP-MM DELIMITED BY SIZE,
                      ':' DELIMITED BY SIZE,
-                     WS-TIME-NOW-GRP-MM DELIMITED BY SIZE
+                     WS-TIME-NOW-GRP-SS DELIMITED BY SIZE
                      INTO ABND-TIME
               END-STRING
 
@@ -607,7 +607,7 @@
                        ':' DELIMITED BY SIZE,
                         WS-TIME-NOW-GRP-MM DELIMITED BY SIZE,
                         ':' DELIMITED BY SIZE,
-                        WS-TIME-NOW-GRP-MM DELIMITED BY SIZE
+                        WS-TIME-NOW-GRP-SS DELIMITED BY SIZE
                         INTO ABND-TIME
                  END-STRING
 
@@ -722,13 +722,13 @@
            IF SQLCODE = 0
               MOVE 'Y' TO INQCUST-INQ-SUCCESS
               MOVE HV-CUSTOMER-NUMBER TO REQUIRED-CUST-NUMBER2
-              GO TO GLCDE999
+              EXIT SECTION
            END-IF.
 
            IF SQLCODE = 100
               MOVE 'N' TO INQCUST-INQ-SUCCESS
               MOVE '9' TO INQCUST-INQ-FAIL-CD
-              GO TO GLCDE999
+              EXIT SECTION
            END-IF.
 
       *
@@ -736,20 +736,6 @@
       *
            MOVE 'N' TO INQCUST-INQ-SUCCESS
            MOVE '9' TO INQCUST-INQ-FAIL-CD.
-
-       GLCDE999.
-           EXIT.
-
-       GLCV010.
-      *
-      *    Old VSAM section - kept for compatibility
-      *    Now redirects to DB2 version
-      *
-           PERFORM GET-LAST-CUSTOMER-DB2.
-           MOVE 'Y' TO INQCUST-INQ-SUCCESS.
-
-       GLCVE999.
-           EXIT.
 
 
        POPULATE-TIME-DATE SECTION.
