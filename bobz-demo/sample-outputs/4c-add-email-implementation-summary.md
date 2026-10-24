@@ -9,7 +9,7 @@
 
 ## What Was Done
 
-All source changes for the customer email field have been committed and pushed to `origin/demo-start`. The implementation followed workstreams A–G from the [implementation plan](./implementation-plan.md), plus post-implementation bug fixes discovered during the first compile attempt on z/OS.
+All source changes for the customer email field have been committed and pushed to `bobz-demo/email-added`. The implementation followed workstreams A–G from the [implementation plan](./implementation-plan.md), plus post-implementation bug fixes discovered during the first compile attempt on z/OS.
 
 ---
 
@@ -275,6 +275,6 @@ Remaining steps:
 
 ---
 
-**Reference**: [`implementation-plan.md`](./implementation-plan.md)
-**Impact analysis**: [`bobz/impact-analysis/customer-email-field-20260727T225450/IMPACT-ANALYSIS.md`](../../impact-analysis/customer-email-field-20260727T225450/IMPACT-ANALYSIS.md)
+**Reference**: [`./4b-add-email-implementation-plan.md`](4b-add-email-implementation-plan.md)
+**Impact analysis**: [`./4a-add-email-impact-analysis.md`](4a-add-email-impact-analysis.md)
 **Last Updated**: 2026-07-30 (Fix 8/9: provider files restored to new layout `a429eb1`; `d7d9302` rollback confirmed as incorrect and reverted; remaining steps are F9/F10 z/OS Connect API rebuild + deploy)

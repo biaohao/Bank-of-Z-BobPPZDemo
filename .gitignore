@@ -39,3 +39,8 @@ DD.json
 
 # Bob Z Extension - Demo outputs
 bobz/
+
+# Demo Content by Biao
+bobz-demo/demos/
+bobz-demo/docs/
+bobz-demo/logs/

@@ -62,7 +62,7 @@ COMMAREA fields passed to CRCCVERI (input) and returned from it (output):
 - **Output**: `CCVERI-CREDIT-SCORE`, `CCVERI-CS-REVIEW-DATE`,
   `CCVERI-SUCCESS`, `CCVERI-FAIL-CODE`
 
-See [`bobz/CRCCVERI.cpy`](../bobz/CRCCVERI.cpy) for the full definition.
+See [`bobz/CRCCVERI.cpy`](./5-crecust-async-refactor/CRCCVERI.cpy) for the full definition.
 
 ---
 
@@ -176,7 +176,7 @@ section repackaged as a standalone CICS program with:
 - `GOBACK` used in place of `PERFORM GET-ME-OUT-OF-HERE` (no CICS RETURN needed
   when called via LINK — control returns to CRECUST automatically)
 
-See [`bobz/CRCCVERI.cbl`](../bobz/CRCCVERI.cbl) for the full program.
+See [`bobz/CRCCVERI.cbl`](./5-crecust-async-refactor/CRCCVERI.cbl) for the full program.
 
 ---
 
@@ -197,11 +197,11 @@ See [`bobz/CRCCVERI.cbl`](../bobz/CRCCVERI.cbl) for the full program.
 
 | File | Description |
 |---|---|
-| [`bobz/CRCCVERI.cpy`](../bobz/CRCCVERI.cpy) | New COMMAREA copybook |
-| [`bobz/CRCCVERI.cbl`](../bobz/CRCCVERI.cbl) | New credit check delegation program |
-| [`bobz/CRECUST.cbl`](../bobz/CRECUST.cbl) | Modified CRECUST — credit check delegated to CRCCVERI |
+| [`bobz/CRCCVERI.cpy`](./5-crecust-async-refactor/CRCCVERI.cpy) | New COMMAREA copybook |
+| [`bobz/CRCCVERI.cbl`](./5-crecust-async-refactor/CRCCVERI.cbl) | New credit check delegation program |
+| [`bobz/CRECUST.cbl`](./5-crecust-async-refactor/CRECUST.cbl) | Modified CRECUST — credit check delegated to CRCCVERI |
 
-The original `CRECUST.cbl` is at [`src/base/cics/cobol/CRECUST.cbl`](../src/base/cics/cobol/CRECUST.cbl).
+The original `CRECUST.cbl` is at [`src/base/cics/cobol/CRECUST.cbl`](../../src/base/cics/cobol/CRECUST.cbl).
 Production copies of the new files belong at:
 - `src/base/cics/copy/CRCCVERI.cpy`
 - `src/base/cics/cobol/CRCCVERI.cbl`
